@@ -473,7 +473,7 @@ def main():
     parser.add_argument("--species", type=str, default="8..20")
     parser.add_argument("--anc-chr", type=str, default="7..30")
     parser.add_argument("--out", type=str, default="output_experiments")
-    parser.add_argument("--param-mode", type=str, default="cycle", choices=["cycle", "shuffle", "random"])
+    parser.add_argument("--param-mode", type=str, default="random", choices=["cycle", "shuffle", "random"])
     parser.add_argument("--base-seed", type=int, default=42, help="Base random seed")
     parser.add_argument("--skip-run", action="store_true", help="Only collect results, skip running simulations")
     parser.add_argument("--skip-existing", action="store_true", help="Skip scenarios whose outputs already exist")

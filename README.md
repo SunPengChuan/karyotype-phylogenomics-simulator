@@ -2,6 +2,14 @@
 
 Tools for simulating chromosome evolution and reconstructing ancestral karyotypes.
 
+## Workflow Overview
+
+![Workflow](workflow.png)
+
+The pipeline consists of two main components:
+- **Simulator**: Generates phylogenetic tree, true ancestral karyotypes, and extant species karyotypes with evolutionary events (RCT, EEJ, NCF, inversions, WGD)
+- **Reconstructor**: Multi-stage inference algorithm to reconstruct ancestral karyotypes from extant species data
+
 ## Quick Start
 
 ### Install Dependencies
@@ -20,7 +28,7 @@ python evolution_simulator.py
 python ancestor_reconstruction.py
 
 # 3. Run experiments (optional)
-python experiment_table.py --param-mode random --num-scenarios 10
+python experiment_table.py --no-visualize --num-scenarios 30
 ```
 
 ## Scripts
@@ -28,7 +36,7 @@ python experiment_table.py --param-mode random --num-scenarios 10
 | Script | Purpose |
 |--------|---------|
 | `evolution_simulator.py` | Simulate chromosome evolution along phylogenetic tree |
-| `ancestor_reconstruction.py` | Reconstruct ancestral karyotypes ([detailed guide](ANCESTOR_RECONSTRUCTION.md)) |
+| `ancestor_reconstruction.py` | Reconstruct ancestral karyotypes ([detailed guide](ancestor_reconstruction.md)) |
 | `experiment_table.py` | Run batch experiments for accuracy evaluation |
 
 ## Output Files
@@ -38,65 +46,79 @@ python experiment_table.py --param-mode random --num-scenarios 10
 | File | Description |
 |------|-------------|
 | `tree.nwk` | Phylogenetic tree |
+| `tree_with_outgroup.nwk` | Tree including outgroup |
+| `tree_with_ancestors.png` | Tree visualization with ancestral nodes |
+| `tree_with_wgd.png` | Tree visualization showing WGD events |
 | `karyotypes_species_with_outgroup.txt` | Extant species karyotypes |
 | `karyotypes_true_root.txt` | True ancestral karyotype |
 | `events.txt` | Branch-level event log |
+| `pairwise_plots/` | Pairwise species comparison plots |
+| `species_vs_ancestor_plots/` | Species vs ancestor dotplots |
 
 ### Reconstruction (`output_reconstruction/`)
 
 | File | Description |
 |------|-------------|
 | `ancestors_by_node.tsv` | Per-node ancestral chromosomes |
-| `ancestor_gene_sets_by_node.tsv` | Per-node ancestral gene sets |
-| `root_rct_outgroup_decisions.tsv` | RCT ancestor decisions |
-| `validation_report.txt` | Lineage isolation validation |
-| `inference_log.txt` | Full details of ancestral karyotype reconstruction process |
+| `ancestor_gene_sets_by_node.tsv` | Gene sets for each ancestral node |
+| `reconstructed_ancestors.txt` | Reconstructed ancestral karyotypes |
+| `DotPlot_ReconstructedRoot_vs_TrueRoot.png` | Comparison of reconstructed vs true root |
+| `inference_log.txt` | Full reconstruction process details |
+
+### Experiments (`output_experiments/`)
+
+| File | Description |
+|------|-------------|
+| `results.tsv` | Batch experiment accuracy summary |
+| `scenario_NNN/` | Individual scenario directories with copies of scripts and outputs |
 
 ## Model Assumptions
 
 - **No gene loss**: Pipeline assumes no gene deletions/insertions during simulation and reconstruction. Coverage check warns if genes are missing.
 - **Unique homology mapping**: Gene IDs are globally unique and represent one-to-one orthology across species.
-- **Restricted event types**: Core events are RCT, EEJ, NCF and inversions. Fission is handled separately in `fission/` module.
+- **Restricted event types**: Core events are RCT, EEJ, NCF and inversions.
 - **Telomere flag**: `telomeres=True/False` distinguishes complete chromosomes from fragments, affecting strict matching and Root validation.
 - **Root child event constraint**: If a chromosome pair (X, Y) undergoes RCT at one root child branch, the same pair cannot undergo NCF or EEJ at the other root child branch. This prevents ambiguous scenarios where RCT + NCF/EEJ combinations on the same chromosome pair would complicate ancestral state inference.
 
 ## Reconstruction Algorithm
 
-Multi-stage approach:
+Multi-stage approach implemented in `KaryotypeReconstructor.run()`:
 
 | Stage | Method | Implementation |
 |-------|--------|----------------|
-| 1. Strict Inference | Shared/Nested pattern detection (bottom-up) | `_compare_and_merge()` |
-| 2. Residual Discovery | Iterative cross-branch residual matching | `_discover_from_residuals()` |
-| 3. RCT Decision | Outgroup-based ancestral state determination | `root_rct_outgroup_decision()` |
-| 4. Final Promotion | Promote pending ancestors with sufficient support | `_finalize_root_pending_ancestors()` |
+| 1. Strict Inference | Shared/Nested pattern detection (postorder) | `_infer_internal_node()` → `_compare_and_merge()` |
+| 2. Outgroup Validation | Iterative unmatched ancestor promotion via outgroup | `_promote_unmatched_ancestors_via_outgroup()` |
+| 3. Cleanup & Merge | Species-level cleanup and cross-branch merging | `_post_outgroup_species_cleanup_and_merge()` |
+| 4. Final Promotion | Promote pending root ancestors and isolated chromosomes | `_finalize_root_pending_ancestors()` + `_promote_isolated_single_chromosome()` |
 
 ### 1. Strict Inference (postorder, bottom-up)
 
-Two strict patterns are inferred in `_compare_and_merge()`:
+Implemented in `_infer_internal_node()` which calls `_compare_and_merge()` for each pair of child nodes.
+
+Two strict patterns are inferred:
 
 - **Shared (Strict)**: Two chromosomes have identical gene sets (100% equality) and both are telomere-complete.
 - **Nested (Strict)**: One chromosome's gene set is a true subset of the other, forming a contiguous block in the larger chromosome (inversions allowed; gaps not allowed).
 
 During Nested inference, remaining genes are peeled as residue fragments and marked as `telomeres=False`.
 
-### 2. Residual Discovery (iterative)
+### 2. Outgroup Validation (iterative)
 
-Key workflow in `_discover_from_residuals()`:
+Key workflow in `_promote_unmatched_ancestors_via_outgroup()`:
 
-1. For each internal node, collect residual pools from all descendant leaves
-2. Subtract confirmed ancestral gene sets from residuals
-3. Compare leftover fragments between sibling branches
-4. If leftovers are identical (100% set equality), promote as new ancestral chromosome with `provenance="Residual (Shared)"` and `telomeres=True`
+1. For each internal node, identify unmatched pending ancestors
+2. Check if gene sets match outgroup chromosomes (with configurable thresholds)
+3. Promote validated ancestors with `provenance="Outgroup-Validated"`
+4. Iterate until no new promotions or root gene repertoire is complete
 
-### 3. Root RCT Outgroup Decision
+### 3. Cleanup & Merge (iterative)
 
-When outgroup is available, the algorithm determines ancestral RCT states by:
+Implemented in `_post_outgroup_species_cleanup_and_merge()`:
 
-1. Scanning candidate chromosome pairs from left/right child subtrees
-2. Computing fusion point signatures (original vs translocation pairs)
-3. Comparing against outgroup adjacency patterns
-4. Selecting configuration with higher outgroup support
+1. Clean up species-level redundant or overlapping chromosomes
+2. Attempt cross-branch merging of compatible fragments
+3. Rebuild residual pools after each iteration
+4. Stop when root repertoire is complete or no new discoveries
 
 ### Telomere Flag (`telomeres=True/False`)
 
@@ -158,34 +180,19 @@ CONFIG = dict(
 )
 ```
 
-## Subfolders
-
-| Folder | Description |
-|--------|-------------|
-| `fission/` | Chromosome fission simulation and conflict analysis |
-| `assembly_errors/` | Misassembly error simulation and impact evaluation |
-
-See [fission/README.md](fission/README.md) and [assembly_errors/README.md](assembly_errors/README.md) for module-specific workflows.
-
 ## File Structure
 
 ```
 karyotype-phylogenomics-simulator/
 ├── evolution_simulator.py
 ├── ancestor_reconstruction.py
+├── ancestor_reconstruction.md
 ├── experiment_table.py
+├── workflow.pdf
 ├── README.md
-├── fission/                    # Fission analysis module
-│   ├── README.md
-│   ├── fission_simulator.py
-│   ├── fission_point_conflict_analyzer.py
-│   └── ...
-├── assembly_errors/            # Misassembly simulation module
-│   ├── README.md
-│   ├── misassembly_simulator.py
-│   └── ...
 ├── output_simulator/           # Simulation outputs
-└── output_reconstruction/      # Reconstruction outputs
+├── output_reconstruction/      # Reconstruction outputs
+└── output_experiments/         # Batch experiment results
 ```
 
 ## License
