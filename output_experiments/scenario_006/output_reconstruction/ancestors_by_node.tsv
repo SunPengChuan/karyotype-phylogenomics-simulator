@@ -1,0 +1,66 @@
+Node	ChrID	GenesCount	Provenance	InheritedFromRoot	RootChrID
+Root	Sp3(4)	564	Shared (Strict)	yes	Sp3(4)
+Root	Sp3(6)	624	Shared (Strict)	yes	Sp3(6)
+Root	Sp4(4)	666	Shared (Strict)	yes	Sp4(4)
+Root	Sp6(2)	164	Nested (Strict)	yes	Sp6(2)
+Root	Sp3(3)	540	Isolated-Outgroup-Validated	yes	Sp3(3)
+Root	Sp5(6)	363	Fusion-Outgroup-Validated	yes	Sp5(6)
+Root	Sp3(5)	684	Fusion-Outgroup-Rejected-RCT	yes	Sp3(5)
+Root	Sp5(5):404-729+Sp6(1):282-415	460	RCT-Residual-Validated	yes	Sp5(5):404-729+Sp6(1):282-415
+Root	Sp12(4):50-198+Sp12(1):369-1577:516-817	451	RCT-Residual-Validated	yes	Sp12(4):50-198+Sp12(1):369-1577:516-817
+Anc1	Sp9(1)	368	Shared (Strict)	no	
+Anc1	Sp3(4)	564	Shared (Strict)	yes	Sp3(4)
+Anc1	Sp3(5)	684	Shared (Strict)	yes	Sp3(5)
+Anc1	Sp4(2)	1070	Shared (Strict)	no	
+Anc1	Sp3(6)	624	Shared (Strict)	yes	Sp3(6)
+Anc1	Sp4(4)	666	Shared (Strict)	yes	Sp4(4)
+Anc3	Sp9(1)	368	Shared (Strict)	no	
+Anc3	Sp3(3)	540	Shared (Strict)	yes	Sp3(3)
+Anc3	Sp3(4)	564	Shared (Strict)	yes	Sp3(4)
+Anc3	Sp3(5)	684	Nested (Strict)	yes	Sp3(5)
+Anc3	Sp4(2)	1070	Nested (Strict)	no	
+Anc4	Sp9(1)	368	Shared (Strict)	no	
+Anc4	Sp4(4)	666	Shared (Strict)	yes	Sp4(4)
+Anc4	Sp3(6)	624	Shared (Strict)	yes	Sp3(6)
+Anc4	Sp4(2)	1070	Nested (Strict)	no	
+Anc4	Sp3(5)	684	Nested (Strict)	yes	Sp3(5)
+Anc4	Sp1(3)	262	Cleaned-Merge	no	
+Anc4	Sp1(5)	842	Cleaned-Merge	no	
+Anc6	Sp9(1)	368	Shared (Strict)	no	
+Anc6	Sp4(2)	1070	Shared (Strict)	no	
+Anc6	Sp1(3)	262	Shared (Strict)	no	
+Anc6	Sp4(4)	666	Shared (Strict)	yes	Sp4(4)
+Anc6	Sp1(5)	842	Shared (Strict)	no	
+Anc6	Sp3(5)	684	Shared (Strict)	yes	Sp3(5)
+Anc6	Sp3(6)	624	Shared (Strict)	yes	Sp3(6)
+Anc7	Sp3(6)	624	Shared (Strict)	yes	Sp3(6)
+Anc7	Sp4(4)	666	Nested (Strict)	yes	Sp4(4)
+Anc7	Sp9(1)	368	Cleaned-Merge	no	
+Anc7	Sp9(2):1-227,679-906	455	Cleaned-Merge	no	
+Anc7	Sp13(2):1-287	287	Cleaned-Merge	no	
+Anc7	Sp13(3)	961	Cleaned-Merge	no	
+Anc8	Sp3(6)	624	Shared (Strict)	yes	Sp3(6)
+Anc8	Sp9(1)	368	Nested (Strict)	no	
+Anc8	Sp12(2)	1224	Nested (Strict)	no	
+Anc8	Sp9(2):1-227,679-906	455	Cleaned-Merge	no	
+Anc9	Sp9(1)	368	Shared (Strict)	no	
+Anc9	Sp10(2)	2960	Shared (Strict)	no	
+Anc10	Sp9(1)	368	Shared (Strict)	no	
+Anc10	Sp10(3)	1188	Nested (Strict)	no	
+Anc10	Sp9(2):1-227,679-906	455	Cleaned-Merge	no	
+Anc11	Sp8(1)	2258	Nested (Strict)	no	
+Anc11	Sp9(1)	368	Nested (Strict)	no	
+Anc2	Sp3(4)	564	Shared (Strict)	yes	Sp3(4)
+Anc2	Sp5(6)	363	Shared (Strict)	yes	Sp5(6)
+Anc2	Sp5(5)	729	Shared (Strict)	no	
+Anc2	Sp6(2)	164	Shared (Strict)	yes	Sp6(2)
+Anc2	Sp5(2)	857	Cleaned-Merge	no	
+Anc2	Sp6(1)	415	Cleaned-Merge	no	
+Anc2	Sp5(3):1-63,930-1215	349	Cleaned-Merge	no	
+Anc5	Sp5(2)	857	Shared (Strict)	no	
+Anc5	Sp3(4)	564	Shared (Strict)	yes	Sp3(4)
+Anc5	Sp5(6)	363	Shared (Strict)	yes	Sp5(6)
+Anc5	Sp5(5)	729	Nested (Strict)	no	
+Anc5	Sp3(6)	624	Nested (Strict)	yes	Sp3(6)
+Anc5	Sp6(1)	415	Nested (Strict)	no	
+Anc5	Sp5(3):1-63,930-1215	349	Cleaned-Merge	no	

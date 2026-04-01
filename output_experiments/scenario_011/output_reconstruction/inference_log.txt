@@ -1,0 +1,199 @@
+--- Node Anc3 Inference ---
+--- Merge @Node Anc3: left=Sp7 right=Sp8 ---
+[Shared-Strict] Sp7(5) == Sp8(4) -> Sp7(5)
+[Shared-Strict] Sp7(6) == Sp8(5) -> Sp7(6)
+[Nested-Strict] Sp7(3) in Sp8(2) -> Sp7(3) + Residue Sp8(2):1-868,1493-1742
+[Residue] Sp8(2) -> Sp8(2):1-868,1493-1742 size=1118 telomeres=True
+
+--- Node Anc7 Inference ---
+--- Merge @Node Anc7: left=Sp4 right=Sp5 ---
+[Nested-Strict] Sp4(1) in Sp5(3) -> Sp4(1) + Residue Sp5(3):1-530,905-1543
+[Residue] Sp5(3) -> Sp5(3):1-530,905-1543 size=1169 telomeres=True
+
+--- Node Anc5 Inference ---
+--- Merge @Node Anc5: left=Anc7 right=Sp6 ---
+[Nested-Strict] Sp4(4) in Sp6(3) -> Sp4(4) + Residue Sp6(3):1-763,1933-3747
+[Residue] Sp6(3) -> Sp6(3):1-763,1933-3747 size=2578 telomeres=True
+
+--- Node Anc10 Inference ---
+--- Merge @Node Anc10: left=Sp1 right=Sp2 ---
+[Shared-Strict] Sp1(2) == Sp2(2) -> Sp1(2)
+
+--- Node Anc8 Inference ---
+--- Merge @Node Anc8: left=Anc10 right=Sp3 ---
+[Shared-Strict] Sp1(2) == Sp3(4) -> Sp1(2)
+
+--- Node Anc9 Inference ---
+--- Merge @Node Anc9: left=Sp11 right=Sp12 ---
+[Shared-Strict] Sp11(2) == Sp12(2) -> Sp11(2)
+[Shared-Strict] Sp11(4) == Sp12(4) -> Sp11(4)
+[Shared-Strict] Sp11(5) == Sp12(5) -> Sp11(5)
+[Shared-Strict] Sp11(6) == Sp12(6) -> Sp11(6)
+
+--- Node Anc6 Inference ---
+--- Merge @Node Anc6: left=Anc8 right=Anc9 ---
+[Shared-Strict] Sp1(2) == Sp11(4) -> Sp1(2)
+[Shared-Strict] Sp3(2) == Sp11(2) -> Sp3(2)
+[Nested-Strict] Sp11(1) in Sp1(1) -> Sp11(1) + Residue Sp1(1):1-1095,2829-3292
+[Residue] Sp1(1) -> Sp1(1):1-1095,2829-3292 size=1559 telomeres=True
+[Nested-Strict] Sp11(3) in Sp2(3) -> Sp11(3) + Residue Sp2(3):1-1066,1691-2078
+[Residue] Sp2(3) -> Sp2(3):1-1066,1691-2078 size=1454 telomeres=True
+[Nested-Strict] Sp11(6) in Sp3(5) -> Sp11(6) + Residue Sp3(5):1-591,877-1454
+[Residue] Sp3(5) -> Sp3(5):1-591,877-1454 size=1169 telomeres=True
+
+--- Node Anc4 Inference ---
+--- Merge @Node Anc4: left=Anc5 right=Anc6 ---
+[Shared-Strict] Sp4(4) == Sp11(5) -> Sp4(4)
+[Shared-Strict] Sp6(4) == Sp11(6) -> Sp6(4)
+[Nested-Strict] Sp11(3) in Sp4(3) -> Sp11(3) + Residue Sp4(3):1-562
+[Residue] Sp4(3) -> Sp4(3):1-562 size=562 telomeres=True
+
+--- Node Anc1 Inference ---
+--- Merge @Node Anc1: left=Anc3 right=Anc4 ---
+[Shared-Strict] Sp7(3) == Sp11(3) -> Sp7(3)
+[Shared-Strict] Sp7(4) == Sp1(2) -> Sp7(4)
+[Shared-Strict] Sp8(1) == Sp3(2) -> Sp8(1)
+
+--- Node Anc2 Inference ---
+--- Merge @Node Anc2: left=Sp10 right=Sp9 ---
+[Shared-Strict] Sp10(5) == Sp9(5) -> Sp9(5)
+[Shared-Strict] Sp10(6) == Sp9(6) -> Sp9(6)
+[Nested-Strict] Sp10(1) in Sp9(7) -> Sp10(1) + Residue Sp9(7):1-201,576-829
+[Residue] Sp9(7) -> Sp9(7):1-201,576-829 size=455 telomeres=True
+[Nested-Strict] Sp9(2) in Sp10(2) -> Sp9(2) + Residue Sp10(2):1-109,987-998
+[Residue] Sp10(2) -> Sp10(2):1-109,987-998 size=121 telomeres=True
+
+--- Node Root Inference ---
+--- Merge @Node Root: left=Anc1 right=Anc2 ---
+[Shared-Strict] Sp7(4) == Sp9(4) -> Sp7(4)
+[Shared-Strict] Sp7(6) == Sp9(6) -> Sp7(6)
+[Shared-Strict] Sp4(1) == Sp10(1) -> Sp4(1)
+
+--- Chromosome Cleanup Complete: removed 54 chromosomes ---
+--- Confirmed Ancestors By Node ---
+[Confirmed@Root] count=3
+  - Sp7(4)	genes=595	telomeres=True	provenance=Shared (Strict)
+  - Sp7(6)	genes=479	telomeres=True	provenance=Shared (Strict)
+  - Sp4(1)	genes=374	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc1] count=3
+  - Sp7(3)	genes=624	telomeres=True	provenance=Shared (Strict)
+  - Sp7(4)	genes=595	telomeres=True	provenance=Shared (Strict)
+  - Sp8(1)	genes=155	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc3] count=3
+  - Sp7(5)	genes=1526	telomeres=True	provenance=Shared (Strict)
+  - Sp7(6)	genes=479	telomeres=True	provenance=Shared (Strict)
+  - Sp7(3)	genes=624	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc4] count=3
+  - Sp4(4)	genes=1169	telomeres=True	provenance=Shared (Strict)
+  - Sp6(4)	genes=285	telomeres=True	provenance=Shared (Strict)
+  - Sp11(3)	genes=624	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc5] count=1
+  - Sp4(4)	genes=1169	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc7] count=1
+  - Sp4(1)	genes=374	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc6] count=5
+  - Sp1(2)	genes=595	telomeres=True	provenance=Shared (Strict)
+  - Sp3(2)	genes=155	telomeres=True	provenance=Shared (Strict)
+  - Sp11(1)	genes=1733	telomeres=True	provenance=Nested (Strict)
+  - Sp11(3)	genes=624	telomeres=True	provenance=Nested (Strict)
+  - Sp11(6)	genes=285	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc8] count=1
+  - Sp1(2)	genes=595	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc10] count=1
+  - Sp1(2)	genes=595	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc9] count=4
+  - Sp11(2)	genes=155	telomeres=True	provenance=Shared (Strict)
+  - Sp11(4)	genes=595	telomeres=True	provenance=Shared (Strict)
+  - Sp11(5)	genes=1169	telomeres=True	provenance=Shared (Strict)
+  - Sp11(6)	genes=285	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc2] count=4
+  - Sp9(5)	genes=975	telomeres=True	provenance=Shared (Strict)
+  - Sp9(6)	genes=479	telomeres=True	provenance=Shared (Strict)
+  - Sp10(1)	genes=374	telomeres=True	provenance=Nested (Strict)
+  - Sp9(2)	genes=877	telomeres=True	provenance=Nested (Strict)
+
+[Freeze-Confirmed] reason=post-initial-index nodes=11 total=29
+[Root-Gene-Repertoire-Check] length_mismatch root=1448 modern=4561
+[Isolated-Outgroup-Validated] Sp7(3) from Anc1 is validated by outgroup breakpoint ('D347', 'D348') mapping to fragments in sibling lineage. Promoted to Root.
+[Fusion-Outgroup-Rejected-RCT] Sp4(4) breakpoint ('F801', 'G112') rejected, but forms RCT with Sp6(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(4) breakpoint ('F802', 'G111') rejected, but forms RCT with Sp4(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp4(4) breakpoint ('F801', 'G112') rejected, but forms RCT with Sp6(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(4) breakpoint ('F802', 'G111') rejected, but forms RCT with Sp4(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[RCT-Residual-Validated] Sp8(3) (residual=115) + Sp8(2):1-868,1493-1742 (residual=220) at Anc1: outgroup cross-connection ('H115', 'H116') -> merged ancestor (335 genes). Promoted to Root.
+[RCT-Residual-Validated] Sp4(5) (residual=133) + Sp5(1) (residual=22) at Anc1: outgroup cross-connection ('B22', 'B23') -> merged ancestor (155 genes). Promoted to Root.
+[Root-Anchored-Residual] Anc=Sp4(5):136-268+Sp5(1):1-22 split across Sp9(2)+Sp9(1) at Anc2. EEJ-guard: split_bp=('B109', 'B110') in out_adj. Junction bp=('C12', 'C13') validated outgroup+sibling. Residuals 831+12=843 genes promoted to Root.
+--- Unmatched Outgroup Validation: promoted 5 chromosomes ---
+[Root-Gene-Repertoire-Check] length_mismatch root=4380 modern=4561
+[Fusion-Outgroup-Rejected-RCT] Sp4(4) breakpoint ('F801', 'G112') rejected, but forms RCT with Sp6(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(4) breakpoint ('F802', 'G111') rejected, but forms RCT with Sp4(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp4(4) breakpoint ('F801', 'G112') rejected, but forms RCT with Sp6(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(4) breakpoint ('F802', 'G111') rejected, but forms RCT with Sp4(4). True ancestors are in Anc2: ['Sp9(5)', 'Sp9(6)'].
+[Root-Anchored-Residual] Anc=Sp7(3) split across Sp12(1)+Sp12(3) at Anc1. EEJ-guard: split_bp=('D315', 'D316') in out_adj. Junction bp=('H443', 'H444') validated outgroup+sibling. Residuals 73+108=181 genes promoted to Root.
+--- Unmatched Outgroup Validation: promoted 1 chromosomes ---
+--- Post-Cleanup Merge @Node Anc3 ---
+[Shared-Strict] Sp7(5):1-502 == Sp8(4):1-502 -> Sp7(5):1-502
+[Post-Cleanup-Confirmed] Anc3: Sp7(1):1-501 (size 501) telomeres=False
+[Post-Cleanup-Confirmed] Anc3: Sp7(2) (size 501) telomeres=True
+[Post-Cleanup-Confirmed] Anc3: Sp8(3) (size 659) telomeres=True
+--- Post-Cleanup Merge @Node Anc7 ---
+[Shared-Strict] Sp4(4) == Sp5(3):1-530,905-1543 -> Sp4(4)
+[Post-Cleanup-Confirmed] Anc7: Sp4(4) (size 1169) telomeres=True
+[Post-Cleanup-Confirmed] Anc7: Sp4(2):1-1048 (size 1048) telomeres=False
+[Post-Cleanup-Confirmed] Anc7: Sp4(3):1-562 (size 562) telomeres=False
+[Post-Cleanup-Confirmed] Anc7: Sp4(5) (size 268) telomeres=True
+--- Post-Cleanup Merge @Node Anc5 ---
+[Shared-Strict] Sp4(4) == Sp6(3):764-1932 -> Sp4(4)
+[Post-Cleanup-Confirmed] Anc5: Sp4(2):1-1048 (size 1048) telomeres=False
+[Post-Cleanup-Confirmed] Anc5: Sp4(3):1-562 (size 562) telomeres=False
+[Post-Cleanup-Confirmed] Anc5: Sp4(5) (size 268) telomeres=True
+[Post-Cleanup-Confirmed] Anc10: Sp1(1):1-388,1013-1095,2829-3292 (size 935) telomeres=True
+[Post-Cleanup-Confirmed] Anc10: Sp1(3) (size 674) telomeres=True
+[Post-Cleanup-Confirmed] Anc8: Sp1(1):1-388,1013-1095,2829-3292 (size 935) telomeres=True
+[Post-Cleanup-Confirmed] Anc8: Sp1(3) (size 674) telomeres=True
+[Post-Cleanup-Confirmed] Anc8: Sp3(1) (size 1458) telomeres=True
+[Post-Cleanup-Confirmed] Anc8: Sp3(3):1-257,774-899 (size 383) telomeres=True
+--- Post-Cleanup Merge @Node Anc9 ---
+[Shared-Strict] Sp11(5) == Sp12(5) -> Sp11(5)
+[Shared-Strict] Sp11(6) == Sp12(6) -> Sp11(6)
+[Post-Cleanup-Confirmed] Anc9: Sp12(1):1-248,1092-1473 (size 630) telomeres=True
+[Post-Cleanup-Confirmed] Anc9: Sp12(3):1-423,759-884 (size 549) telomeres=True
+[Post-Cleanup-Confirmed] Anc6: Sp11(5) (size 1169) telomeres=True
+--- Post-Cleanup Merge @Node Anc4 ---
+[Shared-Strict] Sp4(4) == Sp11(5) -> Sp4(4)
+[Shared-Strict] Sp6(4) == Sp11(6) -> Sp6(4)
+[Post-Cleanup-Confirmed] Anc4: Sp5(2):1-572 (size 572) telomeres=False
+--- Post-Cleanup Merge @Node Anc1 ---
+[Nested-Strict] Sp7(5):1-502 in Sp4(4) -> Sp7(5):1-502 + Residue Sp4(4):503-1169
+[Residue] Sp4(4) -> Sp4(4):503-1169 size=667 telomeres=True
+[Post-Cleanup-Confirmed] Anc1: Sp7(5):1-502 (size 502) telomeres=False
+[Post-Cleanup-Confirmed] Anc1: Sp6(4) (size 285) telomeres=True
+[Post-Cleanup-Confirmed] Anc1: Sp4(4):503-1169 (size 667) telomeres=False
+--- Post-Cleanup Merge @Node Anc2 ---
+[Shared-Strict] Sp10(7) == Sp9(7):1-201,576-829 -> Sp10(7)
+[Post-Cleanup-Confirmed] Anc2: Sp10(7) (size 455) telomeres=True
+[Post-Cleanup-Confirmed] Anc2: Sp10(3):1-874 (size 874) telomeres=False
+[Post-Cleanup-Confirmed] Anc2: Sp10(4) (size 225) telomeres=True
+[Post-Cleanup-Confirmed] Anc2: Sp9(1) (size 121) telomeres=True
+[Root-Gene-Repertoire-Check] complete: root=4561 modern=4561
+--- Cleanup/Merge Loop: Repertoire complete at iteration 1 ---
+[Same-Family-Merge] Family 'H': merged 2 fragments ['Sp8(3):545-659+Sp8(2):1-868,1493-1742:474-693', 'Sp12(1)+Sp12(3)_residual'] -> 'Sp8(3):545-659+Sp8(2):1-868,1493-1742:474-693+Sp12(1)+Sp12(3)_residual' (516 genes)
+[Final-Output-Source] Root final output uses confirmed_ancestors[root] as authoritative set: 8 chromosomes
+--- Confirmed Root Ancestors (Final) ---
+  Sp9(5)	genes=975	provenance=Fusion-Outgroup-Rejected-RCT
+  Sp9(2)+Sp9(1)_residual	genes=843	provenance=Root-Anchored-Residual
+  Sp7(3)	genes=624	provenance=Isolated-Outgroup-Validated
+  Sp7(4)	genes=595	provenance=Shared (Strict)
+  Sp8(3):545-659+Sp8(2):1-868,1493-1742:474-693+Sp12(1)+Sp12(3)_residual	genes=516	provenance=Same-Family-Merge
+  Sp7(6)	genes=479	provenance=Shared (Strict)
+  Sp4(1)	genes=374	provenance=Shared (Strict)
+  Sp4(5):136-268+Sp5(1):1-22	genes=155	provenance=RCT-Residual-Validated

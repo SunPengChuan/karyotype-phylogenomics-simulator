@@ -1,0 +1,49 @@
+Node	Type	Chromosomes	Position	Details
+--------------------------------------------------------------------------------
+Anc1      	Inversion      	T              	31-397              	Inverted
+Anc1      	EEJ            	P, S           	End-End             	Fused; mode=TT
+Anc3      	EEJ            	B, T           	End-End             	Fused; mode=HH
+Anc7      	Inversion      	Q              	152-181             	Inverted
+Anc7      	EEJ            	A, I           	End-End             	Fused; mode=HH
+Anc11     	Inversion      	K              	71-212              	Inverted
+Sp1       	Inversion      	D              	209-310             	Inverted
+Sp1       	EEJ            	K, P           	End-End             	Fused; mode=TT
+Sp2_preWGD	PreWGD         	A, B, C, D, E, F, G, H, J, K, L, M, N, O, P, Q, R, U, V, W	Before WGD          	Split to Sp2
+Sp2_preWGD	Inversion      	W              	319-391             	Inverted
+Sp2_preWGD	EEJ            	C, P           	End-End             	Fused; mode=HT
+Sp2       	WGD            	A, B, C, D, E, F, G, H, J, K, L, M, N, O, Q, R, U, V, W	Doubled             	19->38
+Sp2       	Inversion      	U_1            	314-517             	Inverted
+Sp2       	EEJ            	A_2, K_2       	End-End             	Fused; mode=TT
+Sp3_preWGD	PreWGD         	A, B, C, D, E, F, G, H, J, K, L, M, N, O, P, Q, R, U, V, W	Before WGD          	Split to Sp3
+Sp3_preWGD	Inversion      	W              	46-108              	Inverted
+Sp3       	WGD            	A, B, C, D, E, F, G, H, J, K, L, M, N, O, P, Q, R, U, V, W	Doubled             	20->40
+Sp3       	Inversion      	J_1            	159-192             	Inverted
+Anc8      	Inversion      	P              	6-417               	Inverted
+Sp13      	EEJ            	G, K           	End-End             	Fused; mode=HT
+Sp12      	Inversion      	V              	155-457             	Inverted
+Sp12      	EEJ            	H, L           	End-End             	Fused; mode=HT
+Anc4      	Inversion      	T              	547-751             	Inverted
+Anc9      	Inversion      	J              	11-137              	Inverted
+Sp11      	Inversion      	T              	107-578             	Inverted
+Sp10      	Inversion      	F              	246-351             	Inverted
+Sp10      	EEJ            	G, K           	End-End             	Fused; mode=TT
+Anc10_preWGD	PreWGD         	A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, T, U, V, W	Before WGD          	Split to Anc10
+Anc10_preWGD	Inversion      	E              	7-72                	Inverted
+Anc10     	WGD            	A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, T, U, V, W	Doubled             	22->44
+Anc10     	Inversion      	F_1            	97-232              	Inverted
+Anc10     	EEJ            	T_1, U_2       	End-End             	Fused; mode=HH
+Sp9       	Inversion      	E_2            	82-96               	Inverted
+Sp9       	EEJ            	A_1, C_2       	End-End             	Fused; mode=HH
+Sp8       	Inversion      	M_2            	55-139              	Inverted
+Anc2      	Inversion      	K              	9-363               	Inverted
+Anc2      	EEJ            	N, V           	End-End             	Fused; mode=TT
+Anc5      	Inversion      	B              	292-395             	Inverted
+Sp7       	Inversion      	J              	27-291              	Inverted
+Sp7       	EEJ            	F, W           	End-End             	Fused; mode=TT
+Sp6       	Inversion      	T              	503-653             	Inverted
+Sp6       	RCT            	H, Q           	H:468|Q:110         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp6       	EEJ            	D, S           	End-End             	Fused; mode=TT
+Anc6      	Inversion      	Q              	219-285             	Inverted
+Sp5       	Inversion      	I              	400-618             	Inverted
+Sp5       	RCT            	G, R           	G:25|R:246          	Swapped tails; pairing=AL-BR/BL-AR
+Sp4       	Inversion      	E              	21-84               	Inverted

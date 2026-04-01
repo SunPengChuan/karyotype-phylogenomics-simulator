@@ -1,0 +1,230 @@
+Node	ChrID	GenesCount	Provenance	InheritedFromRoot	RootChrID
+Root	Sp9(5)	775	Shared (Strict)	yes	Sp9(5)
+Root	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Root	Sp13(8)	867	Shared (Strict)	yes	Sp13(8)
+Root	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Root	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Root	Sp13(13)	397	Shared (Strict)	yes	Sp13(13)
+Root	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Root	Sp13(16)	743	Shared (Strict)	yes	Sp13(16)
+Root	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Root	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Root	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Root	Sp13(18)	962	Shared (Strict)	yes	Sp13(18)
+Root	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Root	Sp9(7)	495	Shared (Strict)	yes	Sp9(7)
+Root	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Root	Sp13(19)	864	Shared (Strict)	yes	Sp13(19)
+Root	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Root	Sp13(5)	595	Nested (Strict)	yes	Sp13(5)
+Root	Sp13(9)	180	Nested (Strict)	yes	Sp13(9)
+Root	Sp13(4)	359	Fusion-Outgroup-Validated	yes	Sp13(4)
+Root	Sp13(15)	946	Fusion-Outgroup-Validated	yes	Sp13(15)
+Anc1	Sp13(4)	359	Shared (Strict)	yes	Sp13(4)
+Anc1	Sp13(5)	595	Shared (Strict)	yes	Sp13(5)
+Anc1	Sp9(5)	775	Shared (Strict)	yes	Sp9(5)
+Anc1	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc1	Sp13(8)	867	Shared (Strict)	yes	Sp13(8)
+Anc1	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Anc1	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc1	Sp13(13)	397	Shared (Strict)	yes	Sp13(13)
+Anc1	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc1	Sp13(15)	946	Shared (Strict)	yes	Sp13(15)
+Anc1	Sp13(16)	743	Shared (Strict)	yes	Sp13(16)
+Anc1	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc1	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc1	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc1	Sp13(18)	962	Shared (Strict)	yes	Sp13(18)
+Anc1	Sp9(1)	555	Nested (Strict)	yes	Sp9(1)
+Anc1	Sp9(7)	495	Nested (Strict)	yes	Sp9(7)
+Anc3	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc3	Sp13(3)	896	Shared (Strict)	no	
+Anc3	Sp13(4)	359	Shared (Strict)	yes	Sp13(4)
+Anc3	Sp13(5)	595	Shared (Strict)	yes	Sp13(5)
+Anc3	Sp9(5)	775	Shared (Strict)	yes	Sp9(5)
+Anc3	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc3	Sp13(8)	867	Shared (Strict)	yes	Sp13(8)
+Anc3	Sp13(9)	180	Shared (Strict)	yes	Sp13(9)
+Anc3	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Anc3	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc3	Sp13(13)	397	Shared (Strict)	yes	Sp13(13)
+Anc3	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc3	Sp13(15)	946	Shared (Strict)	yes	Sp13(15)
+Anc3	Sp13(16)	743	Shared (Strict)	yes	Sp13(16)
+Anc3	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc3	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc3	Sp13(19)	864	Nested (Strict)	yes	Sp13(19)
+Anc2	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc2	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc2	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc2	Sp9(4)	273	Shared (Strict)	no	
+Anc2	Sp6(5)	775	Shared (Strict)	no	
+Anc2	Sp9(5)	775	Shared (Strict)	yes	Sp9(5)
+Anc2	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc2	Sp9(7)	495	Shared (Strict)	yes	Sp9(7)
+Anc2	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Anc2	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc2	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc2	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc2	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc2	Sp9(14)	1032	Shared (Strict)	no	
+Anc2	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc2	Sp13(18)	962	Nested (Strict)	yes	Sp13(18)
+Anc2	Sp13(19)	864	Nested (Strict)	yes	Sp13(19)
+Anc2	Sp13(13)	397	Nested (Strict)	yes	Sp13(13)
+Anc4	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc4	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc4	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc4	Sp9(4)	273	Shared (Strict)	no	
+Anc4	Sp6(5)	775	Shared (Strict)	no	
+Anc4	Sp9(5)	775	Shared (Strict)	yes	Sp9(5)
+Anc4	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc4	Sp9(7)	495	Shared (Strict)	yes	Sp9(7)
+Anc4	Sp13(8)	867	Shared (Strict)	yes	Sp13(8)
+Anc4	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Anc4	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc4	Sp13(13)	397	Shared (Strict)	yes	Sp13(13)
+Anc4	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc4	Sp13(16)	743	Shared (Strict)	yes	Sp13(16)
+Anc4	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc4	Sp13(18)	962	Shared (Strict)	yes	Sp13(18)
+Anc4	Sp13(19)	864	Shared (Strict)	yes	Sp13(19)
+Anc4	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc4	Sp9(14)	1032	Nested (Strict)	no	
+Anc5	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc5	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc5	Sp9(4)	273	Shared (Strict)	no	
+Anc5	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc5	Sp6(8)	1062	Shared (Strict)	no	
+Anc5	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Anc5	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc5	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc5	Sp6(12)	1359	Shared (Strict)	no	
+Anc5	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc5	Sp9(14)	1032	Shared (Strict)	no	
+Anc5	Sp6(15)	548	Shared (Strict)	no	
+Anc5	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc5	Sp6(5)	775	Shared (Strict)	no	
+Anc5	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc5	Sp9(5)	775	Nested (Strict)	yes	Sp9(5)
+Anc5	Sp9(7)	495	Nested (Strict)	yes	Sp9(7)
+Anc6	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc6	Sp9(2)	718	Shared (Strict)	no	
+Anc6	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc6	Sp9(4)	273	Shared (Strict)	no	
+Anc6	Sp9(5)	775	Shared (Strict)	yes	Sp9(5)
+Anc6	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc6	Sp9(7)	495	Shared (Strict)	yes	Sp9(7)
+Anc6	Sp6(8)	1062	Shared (Strict)	no	
+Anc6	Sp9(9)	177	Shared (Strict)	yes	Sp9(9)
+Anc6	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc6	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc6	Sp6(12)	1359	Shared (Strict)	no	
+Anc6	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc6	Sp9(14)	1032	Shared (Strict)	no	
+Anc6	Sp6(15)	548	Shared (Strict)	no	
+Anc6	Sp9(17)	700	Shared (Strict)	no	
+Anc6	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc6	Sp6(5)	775	Nested (Strict)	no	
+Anc7	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc7	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc7	Sp9(4)	273	Shared (Strict)	no	
+Anc7	Sp6(5)	775	Shared (Strict)	no	
+Anc7	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc7	Sp6(8)	1062	Shared (Strict)	no	
+Anc7	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc7	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc7	Sp6(12)	1359	Shared (Strict)	no	
+Anc7	Sp9(14)	1032	Shared (Strict)	no	
+Anc7	Sp6(15)	548	Shared (Strict)	no	
+Anc7	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc7	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc8	Sp6(1)	1050	Shared (Strict)	no	
+Anc8	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc8	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc8	Sp9(4)	273	Shared (Strict)	no	
+Anc8	Sp6(5)	775	Shared (Strict)	no	
+Anc8	Sp6(6)	811	Shared (Strict)	no	
+Anc8	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc8	Sp6(8)	1062	Shared (Strict)	no	
+Anc8	Sp6(9)	1005	Shared (Strict)	no	
+Anc8	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc8	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc8	Sp6(12)	1359	Shared (Strict)	no	
+Anc8	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc8	Sp9(14)	1032	Shared (Strict)	no	
+Anc8	Sp6(15)	548	Shared (Strict)	no	
+Anc8	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc8	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc10	Sp6(1)	1050	Shared (Strict)	no	
+Anc10	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc10	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc10	Sp9(4)	273	Shared (Strict)	no	
+Anc10	Sp6(5)	775	Shared (Strict)	no	
+Anc10	Sp6(6)	811	Shared (Strict)	no	
+Anc10	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc10	Sp6(8)	1062	Shared (Strict)	no	
+Anc10	Sp6(9)	1005	Shared (Strict)	no	
+Anc10	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc10	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc10	Sp6(12)	1359	Shared (Strict)	no	
+Anc10	Sp9(13)	175	Shared (Strict)	yes	Sp9(13)
+Anc10	Sp9(14)	1032	Shared (Strict)	no	
+Anc10	Sp6(15)	548	Shared (Strict)	no	
+Anc10	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc10	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc9	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc9	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc9	Sp9(4)	273	Shared (Strict)	no	
+Anc9	Sp6(5)	775	Shared (Strict)	no	
+Anc9	Sp6(12)	1359	Shared (Strict)	no	
+Anc9	Sp3(14)	419	Shared (Strict)	no	
+Anc9	Sp6(15)	548	Shared (Strict)	no	
+Anc9	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc9	Sp9(18)	725	Shared (Strict)	yes	Sp9(18)
+Anc9	Sp9(11)	307	Shared (Strict)	yes	Sp9(11)
+Anc9	Sp9(6)	189	Shared (Strict)	yes	Sp9(6)
+Anc9	Sp5(6)	1639	Shared (Strict)	no	
+Anc9	Sp9(14)	1032	Shared (Strict)	no	
+Anc9	Sp6(8)	1062	Nested (Strict)	no	
+Anc9	Sp9(10)	775	Nested (Strict)	yes	Sp9(10)
+Anc9	Sp6(16)	414	Nested (Strict)	yes	Sp6(16)
+Anc11	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc11	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc11	Sp9(4)	273	Shared (Strict)	no	
+Anc11	Sp6(5)	775	Shared (Strict)	no	
+Anc11	Sp3(8)	322	Shared (Strict)	no	
+Anc11	Sp6(8)	1062	Shared (Strict)	no	
+Anc11	Sp4(9)	520	Shared (Strict)	no	
+Anc11	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc11	Sp6(12)	1359	Shared (Strict)	no	
+Anc11	Sp3(14)	419	Shared (Strict)	no	
+Anc11	Sp6(15)	548	Shared (Strict)	no	
+Anc11	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc11	Sp9(18)	725	Nested (Strict)	yes	Sp9(18)
+Anc11	Sp9(11)	307	Nested (Strict)	yes	Sp9(11)
+Anc11	Sp9(6)	189	Nested (Strict)	yes	Sp9(6)
+Anc13	Sp9(1)	555	Shared (Strict)	yes	Sp9(1)
+Anc13	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc13	Sp9(4)	273	Shared (Strict)	no	
+Anc13	Sp6(5)	775	Shared (Strict)	no	
+Anc13	Sp3(8)	322	Shared (Strict)	no	
+Anc13	Sp6(8)	1062	Shared (Strict)	no	
+Anc13	Sp4(9)	520	Shared (Strict)	no	
+Anc13	Sp9(10)	775	Shared (Strict)	yes	Sp9(10)
+Anc13	Sp6(12)	1359	Shared (Strict)	no	
+Anc13	Sp3(14)	419	Shared (Strict)	no	
+Anc13	Sp3(15)	1380	Shared (Strict)	no	
+Anc13	Sp6(15)	548	Shared (Strict)	no	
+Anc12	Sp6(2)	554	Shared (Strict)	yes	Sp6(2)
+Anc12	Sp9(3)	401	Shared (Strict)	yes	Sp9(3)
+Anc12	Sp9(4)	273	Shared (Strict)	no	
+Anc12	Sp5(6)	1639	Shared (Strict)	no	
+Anc12	Sp1(8)	251	Shared (Strict)	no	
+Anc12	Sp1(9)	1837	Shared (Strict)	no	
+Anc12	Sp6(12)	1359	Shared (Strict)	no	
+Anc12	Sp3(14)	419	Shared (Strict)	no	
+Anc12	Sp9(14)	1032	Shared (Strict)	no	
+Anc12	Sp6(15)	548	Shared (Strict)	no	
+Anc12	Sp6(16)	414	Shared (Strict)	yes	Sp6(16)
+Anc12	Sp9(18)	725	Nested (Strict)	yes	Sp9(18)

@@ -1,0 +1,563 @@
+--- Node Anc5 Inference ---
+--- Merge @Node Anc5: left=Sp1 right=Sp2 ---
+[Shared-Strict] Sp1(1) == Sp2(1) -> Sp1(1)
+[Shared-Strict] Sp1(3) == Sp2(3) -> Sp1(3)
+[Shared-Strict] Sp1(4) == Sp2(4) -> Sp1(4)
+[Shared-Strict] Sp1(6) == Sp2(5) -> Sp1(6)
+[Shared-Strict] Sp1(8) == Sp2(7) -> Sp1(8)
+[Shared-Strict] Sp1(9) == Sp2(8) -> Sp1(9)
+[Shared-Strict] Sp1(10) == Sp2(9) -> Sp2(9)
+
+--- Node Anc6 Inference ---
+--- Merge @Node Anc6: left=Sp8 right=Sp9 ---
+[Shared-Strict] Sp8(1) == Sp9(1) -> Sp8(1)
+[Shared-Strict] Sp8(4) == Sp9(3) -> Sp8(4)
+[Shared-Strict] Sp8(5) == Sp9(4) -> Sp8(5)
+[Shared-Strict] Sp8(9) == Sp9(7) -> Sp8(9)
+[Shared-Strict] Sp8(10) == Sp9(8) -> Sp9(8)
+[Nested-Strict] Sp8(6) in Sp9(2) -> Sp8(6) + Residue Sp9(2):1-1092
+[Residue] Sp9(2) -> Sp9(2):1-1092 size=1092 telomeres=True
+[Nested-Strict] Sp9(9) in Sp8(3) -> Sp9(9) + Residue Sp8(3):1-1092
+[Residue] Sp8(3) -> Sp8(3):1-1092 size=1092 telomeres=True
+
+--- Node Anc2 Inference ---
+--- Merge @Node Anc2: left=Anc5 right=Anc6 ---
+[Shared-Strict] Sp1(1) == Sp8(1) -> Sp1(1)
+[Shared-Strict] Sp1(6) == Sp8(6) -> Sp1(6)
+[Shared-Strict] Sp1(9) == Sp8(8) -> Sp1(9)
+[Shared-Strict] Sp2(9) == Sp8(9) -> Sp2(9)
+[Shared-Strict] Sp1(2) == Sp8(2) -> Sp1(2)
+[Shared-Strict] Sp1(5) == Sp8(5) -> Sp1(5)
+[Nested-Strict] Sp1(8) in Sp8(4) -> Sp1(8) + Residue Sp8(4):1-857
+[Residue] Sp8(4) -> Sp8(4):1-857 size=857 telomeres=True
+[Nested-Strict] Sp9(9) in Sp1(3) -> Sp9(9) + Residue Sp1(3):1-1029,1490-1552
+[Residue] Sp1(3) -> Sp1(3):1-1029,1490-1552 size=1092 telomeres=True
+[Nested-Strict] Sp9(8) in Sp1(7) -> Sp9(8) + Residue Sp1(7):1-181
+[Residue] Sp1(7) -> Sp1(7):1-181 size=181 telomeres=True
+
+--- Node Anc3 Inference ---
+--- Merge @Node Anc3: left=Sp6 right=Sp7 ---
+[Shared-Strict] Sp6(1) == Sp7(1) -> Sp6(1)
+[Shared-Strict] Sp6(2) == Sp7(2) -> Sp6(2)
+[Shared-Strict] Sp6(3) == Sp7(3) -> Sp6(3)
+[Shared-Strict] Sp6(5) == Sp7(5) -> Sp6(5)
+[Shared-Strict] Sp6(7) == Sp7(7) -> Sp6(7)
+[Shared-Strict] Sp6(8) == Sp7(9) -> Sp6(8)
+[Shared-Strict] Sp6(10) == Sp7(10) -> Sp6(10)
+[Shared-Strict] Sp6(12) == Sp7(12) -> Sp6(12)
+[Shared-Strict] Sp6(15) == Sp7(14) -> Sp6(15)
+[Shared-Strict-LocalConflict] Sp6(16) == Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Shared-Strict] Sp6(17) == Sp7(17) -> Sp6(17)
+[Shared-Strict] Sp6(18) == Sp7(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp7(20) -> Sp6(19)
+[Shared-Strict] Sp6(21) == Sp7(21) -> Sp6(21)
+[Shared-Strict] Sp6(22) == Sp7(23) -> Sp6(22)
+[Shared-Strict] Sp6(23) == Sp7(24) -> Sp6(23)
+[Shared-Strict-LocalConflict] Sp6(16) == Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict] Sp6(9) in Sp7(6) -> Sp6(9) + Residue Sp7(6):1-253
+[Residue] Sp7(6) -> Sp7(6):1-253 size=253 telomeres=True
+[Shared-Strict-LocalConflict] Sp6(16) == Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict-LocalConflict] Sp6(16) in Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict] Sp7(8) in Sp6(4) -> Sp7(8) + Residue Sp6(4):1-300
+[Residue] Sp6(4) -> Sp6(4):1-300 size=300 telomeres=True
+[Shared-Strict-LocalConflict] Sp6(16) == Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict-LocalConflict] Sp6(16) in Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict] Sp7(18) in Sp6(20) -> Sp7(18) + Residue Sp6(20):1-445,855-869
+[Residue] Sp6(20) -> Sp6(20):1-445,855-869 size=460 telomeres=True
+[Shared-Strict-LocalConflict] Sp6(16) == Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict-LocalConflict] Sp6(16) in Sp7(16) rejected due to overlap=288 with inferred:Sp6(5)
+[Shared-Strict] Sp7(16) == Sp6(16) -> Sp6(16)
+
+--- Node Anc7 Inference ---
+--- Merge @Node Anc7: left=Sp3 right=Sp4 ---
+[Shared-Strict] Sp3(1) == Sp4(1) -> Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict] Sp3(3) == Sp4(3) -> Sp3(3)
+[Shared-Strict] Sp3(6) == Sp4(6) -> Sp3(6)
+[Shared-Strict] Sp3(8) == Sp4(8) -> Sp3(8)
+[Shared-Strict-LocalConflict] Sp3(9) == Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Shared-Strict] Sp3(11) == Sp4(10) -> Sp3(11)
+[Shared-Strict] Sp3(12) == Sp4(12) -> Sp3(12)
+[Shared-Strict] Sp3(13) == Sp4(13) -> Sp3(13)
+[Shared-Strict] Sp3(14) == Sp4(15) -> Sp3(14)
+[Shared-Strict] Sp3(15) == Sp4(16) -> Sp3(15)
+[Shared-Strict] Sp3(16) == Sp4(17) -> Sp3(16)
+[Shared-Strict-LocalConflict] Sp3(17) == Sp4(18) rejected due to overlap=409 with inferred:Sp3(16)
+[Shared-Strict-LocalConflict] Sp3(18) == Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Shared-Strict] Sp3(19) == Sp4(20) -> Sp3(19)
+[Shared-Strict-LocalConflict] Sp3(20) == Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Shared-Strict] Sp3(21) == Sp4(22) -> Sp3(21)
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(9) == Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(17) == Sp4(18) rejected due to overlap=409 with inferred:Sp3(16)
+[Shared-Strict-LocalConflict] Sp3(18) == Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Shared-Strict-LocalConflict] Sp3(20) == Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(17) in Sp4(18) rejected due to overlap=409 with inferred:Sp3(16)
+[Nested-Strict-LocalConflict] Sp3(20) in Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(9) in Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(18) in Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(2) in Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict] Sp4(18) == Sp3(17) -> Sp3(17)
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(9) == Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(18) == Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Shared-Strict-LocalConflict] Sp3(20) == Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(20) in Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(9) in Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(18) in Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(2) in Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Nested-Strict] Sp4(5) in Sp3(5) -> Sp4(5) + Residue Sp3(5):1125-1989
+[Residue] Sp3(5) -> Sp3(5):1125-1989 size=865 telomeres=True
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(9) == Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(18) == Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Shared-Strict-LocalConflict] Sp3(20) == Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(20) in Sp4(21) rejected due to overlap=382 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(9) in Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(18) in Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(2) in Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict] Sp4(21) == Sp3(20) -> Sp3(20)
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(9) == Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(18) == Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(9) in Sp4(9) rejected due to overlap=361 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(18) in Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(2) in Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict] Sp4(9) == Sp3(9) -> Sp3(9)
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict-LocalConflict] Sp3(18) == Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(18) in Sp4(19) rejected due to overlap=22 with inferred:Sp3(3)
+[Nested-Strict-LocalConflict] Sp3(2) in Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict] Sp4(19) == Sp3(18) -> Sp3(18)
+[Shared-Strict-LocalConflict] Sp3(2) == Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Nested-Strict-LocalConflict] Sp3(2) in Sp4(2) rejected due to overlap=192 with inferred:Sp3(1)
+[Shared-Strict] Sp4(2) == Sp3(2) -> Sp3(2)
+
+--- Node Anc4 Inference ---
+--- Merge @Node Anc4: left=Anc7 right=Sp5 ---
+[Shared-Strict] Sp3(3) == Sp5(3) -> Sp3(3)
+[Shared-Strict] Sp3(6) == Sp5(6) -> Sp3(6)
+[Shared-Strict] Sp3(11) == Sp5(10) -> Sp3(11)
+[Shared-Strict] Sp3(12) == Sp5(12) -> Sp3(12)
+[Shared-Strict] Sp3(14) == Sp5(15) -> Sp3(14)
+[Shared-Strict] Sp3(15) == Sp5(16) -> Sp3(15)
+[Shared-Strict] Sp3(19) == Sp5(18) -> Sp3(19)
+[Shared-Strict] Sp3(21) == Sp5(22) -> Sp3(21)
+[Shared-Strict-LocalConflict] Sp3(17) == Sp5(17) rejected due to overlap=839 with inferred:Sp3(21)
+[Shared-Strict] Sp3(20) == Sp5(20) -> Sp3(20)
+[Shared-Strict] Sp3(9) == Sp5(9) -> Sp3(9)
+[Shared-Strict] Sp3(2) == Sp5(2) -> Sp3(2)
+[Shared-Strict] Sp4(7) == Sp5(7) -> Sp4(7)
+[Shared-Strict] Sp4(11) == Sp5(11) -> Sp4(11)
+[Shared-Strict-LocalConflict] Sp3(17) == Sp5(17) rejected due to overlap=839 with inferred:Sp3(21)
+[Nested-Strict-LocalConflict] Sp3(17) in Sp5(17) rejected due to overlap=839 with inferred:Sp3(21)
+[Nested-Strict] Sp3(16) in Sp5(8) -> Sp3(16) + Residue Sp5(8):1-126
+[Residue] Sp5(8) -> Sp5(8):1-126 size=126 telomeres=True
+[Shared-Strict-LocalConflict] Sp3(17) == Sp5(17) rejected due to overlap=839 with inferred:Sp3(21)
+[Nested-Strict-LocalConflict] Sp3(17) in Sp5(17) rejected due to overlap=839 with inferred:Sp3(21)
+[Shared-Strict] Sp5(17) == Sp3(17) -> Sp3(17)
+[Nested-Strict] Sp5(21) in Sp3(1) -> Sp5(21) + Residue Sp3(1):1-192
+[Residue] Sp3(1) -> Sp3(1):1-192 size=192 telomeres=True
+
+--- Node Anc1 Inference ---
+--- Merge @Node Anc1: left=Anc3 right=Anc4 ---
+[Shared-Strict] Sp6(1) == Sp3(2) -> Sp6(1)
+[Shared-Strict] Sp6(3) == Sp3(3) -> Sp6(3)
+[Shared-Strict] Sp6(5) == Sp5(5) -> Sp6(5)
+[Shared-Strict] Sp6(7) == Sp4(7) -> Sp6(7)
+[Shared-Strict] Sp6(8) == Sp3(9) -> Sp6(8)
+[Shared-Strict] Sp6(10) == Sp3(11) -> Sp6(10)
+[Shared-Strict] Sp6(12) == Sp3(12) -> Sp6(12)
+[Shared-Strict] Sp6(15) == Sp3(14) -> Sp6(15)
+[Shared-Strict] Sp6(17) == Sp3(16) -> Sp6(17)
+[Shared-Strict] Sp6(18) == Sp3(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp5(19) -> Sp6(19)
+[Shared-Strict] Sp6(21) == Sp3(20) -> Sp6(21)
+[Shared-Strict] Sp6(22) == Sp3(21) -> Sp6(22)
+[Shared-Strict-LocalConflict] Sp6(16) == Sp3(15) rejected due to overlap=288 with inferred:Sp6(5)
+[Shared-Strict-LocalConflict] Sp6(6) == Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Shared-Strict] Sp6(13) == Sp3(13) -> Sp6(13)
+[Shared-Strict] Sp7(11) == Sp4(11) -> Sp7(11)
+[Shared-Strict-LocalConflict] Sp6(16) == Sp3(15) rejected due to overlap=288 with inferred:Sp6(5)
+[Shared-Strict-LocalConflict] Sp6(6) == Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Nested-Strict] Sp6(23) in Sp3(17) -> Sp6(23) + Residue Sp3(17):1-216,1056-1248
+[Residue] Sp3(17) -> Sp3(17):1-216,1056-1248 size=409 telomeres=True
+[Shared-Strict-LocalConflict] Sp6(16) == Sp3(15) rejected due to overlap=288 with inferred:Sp6(5)
+[Shared-Strict-LocalConflict] Sp6(6) == Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Nested-Strict] Sp7(8) in Sp4(5) -> Sp7(8) + Residue Sp4(5):1-493,1077-1124
+[Residue] Sp4(5) -> Sp4(5):1-493,1077-1124 size=541 telomeres=True
+[Shared-Strict-LocalConflict] Sp6(16) == Sp3(15) rejected due to overlap=288 with inferred:Sp6(5)
+[Shared-Strict-LocalConflict] Sp6(6) == Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Nested-Strict-LocalConflict] Sp6(16) in Sp3(15) rejected due to overlap=288 with inferred:Sp6(5)
+[Nested-Strict-LocalConflict] Sp6(6) in Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Shared-Strict] Sp3(15) == Sp6(16) -> Sp6(16)
+[Shared-Strict-LocalConflict] Sp6(6) == Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Nested-Strict-LocalConflict] Sp6(6) in Sp3(6) rejected due to overlap=253 with inferred:Sp6(5)
+[Shared-Strict] Sp3(6) == Sp6(6) -> Sp6(6)
+
+--- Node Anc1_preWGD Inference ---
+Inherited directly from Anc1
+
+--- Node Root Inference ---
+--- Merge @Node Root: left=Anc1_preWGD right=Anc2 ---
+[Shared-Strict] Sp6(1) == Sp1(1) -> Sp6(1)
+[Shared-Strict] Sp6(3) == Sp1(2) -> Sp6(3)
+[Shared-Strict] Sp6(8) == Sp1(5) -> Sp6(8)
+[Shared-Strict] Sp6(10) == Sp1(6) -> Sp1(6)
+[Shared-Strict] Sp6(12) == Sp8(7) -> Sp8(7)
+[Shared-Strict] Sp6(15) == Sp1(8) -> Sp1(8)
+[Shared-Strict] Sp6(17) == Sp2(9) -> Sp2(9)
+[Shared-Strict] Sp6(21) == Sp9(9) -> Sp9(9)
+[Shared-Strict] Sp6(16) == Sp1(9) -> Sp1(9)
+
+--- Chromosome Cleanup Complete: removed 78 chromosomes ---
+--- Confirmed Ancestors By Node ---
+[Confirmed@Root] count=9
+  - Sp6(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp6(3)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp6(8)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp1(6)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp8(7)	genes=181	telomeres=True	provenance=Shared (Strict)
+  - Sp1(8)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp2(9)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp9(9)	genes=460	telomeres=True	provenance=Shared (Strict)
+  - Sp1(9)	genes=288	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc2] count=9
+  - Sp1(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp1(6)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp1(9)	genes=288	telomeres=True	provenance=Shared (Strict)
+  - Sp2(9)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp1(2)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp1(5)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp1(8)	genes=865	telomeres=True	provenance=Nested (Strict)
+  - Sp9(9)	genes=460	telomeres=True	provenance=Nested (Strict)
+  - Sp9(8)	genes=190	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc5] count=7
+  - Sp1(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp1(3)	genes=1552	telomeres=True	provenance=Shared (Strict)
+  - Sp1(4)	genes=857	telomeres=True	provenance=Shared (Strict)
+  - Sp1(6)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp1(8)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp1(9)	genes=288	telomeres=True	provenance=Shared (Strict)
+  - Sp2(9)	genes=409	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc6] count=7
+  - Sp8(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp8(4)	genes=1722	telomeres=True	provenance=Shared (Strict)
+  - Sp8(5)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp8(9)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp9(8)	genes=190	telomeres=True	provenance=Shared (Strict)
+  - Sp8(6)	genes=961	telomeres=True	provenance=Nested (Strict)
+  - Sp9(9)	genes=460	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc1_preWGD] count=14
+  - Sp6(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp6(3)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp6(5)	genes=541	telomeres=True	provenance=Shared (Strict)
+  - Sp6(7)	genes=583	telomeres=True	provenance=Shared (Strict)
+  - Sp6(8)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp6(10)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp6(12)	genes=181	telomeres=True	provenance=Shared (Strict)
+  - Sp6(15)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp6(17)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp6(18)	genes=464	telomeres=True	provenance=Shared (Strict)
+  - Sp6(21)	genes=460	telomeres=True	provenance=Shared (Strict)
+  - Sp6(22)	genes=839	telomeres=True	provenance=Shared (Strict)
+  - Sp6(16)	genes=288	telomeres=True	provenance=Shared (Strict)
+  - Sp6(6)	genes=253	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc1] count=14
+  - Sp6(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp6(3)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp6(5)	genes=541	telomeres=True	provenance=Shared (Strict)
+  - Sp6(7)	genes=583	telomeres=True	provenance=Shared (Strict)
+  - Sp6(8)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp6(10)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp6(12)	genes=181	telomeres=True	provenance=Shared (Strict)
+  - Sp6(15)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp6(17)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp6(18)	genes=464	telomeres=True	provenance=Shared (Strict)
+  - Sp6(21)	genes=460	telomeres=True	provenance=Shared (Strict)
+  - Sp6(22)	genes=839	telomeres=True	provenance=Shared (Strict)
+  - Sp6(16)	genes=288	telomeres=True	provenance=Shared (Strict)
+  - Sp6(6)	genes=253	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc3] count=13
+  - Sp6(1)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp6(3)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp6(5)	genes=541	telomeres=True	provenance=Shared (Strict)
+  - Sp6(7)	genes=583	telomeres=True	provenance=Shared (Strict)
+  - Sp6(8)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp6(10)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp6(12)	genes=181	telomeres=True	provenance=Shared (Strict)
+  - Sp6(15)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp6(17)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp6(18)	genes=464	telomeres=True	provenance=Shared (Strict)
+  - Sp6(21)	genes=460	telomeres=True	provenance=Shared (Strict)
+  - Sp6(22)	genes=839	telomeres=True	provenance=Shared (Strict)
+  - Sp6(16)	genes=288	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc4] count=15
+  - Sp3(3)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp3(6)	genes=253	telomeres=True	provenance=Shared (Strict)
+  - Sp3(11)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp3(12)	genes=181	telomeres=True	provenance=Shared (Strict)
+  - Sp3(14)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp3(15)	genes=288	telomeres=True	provenance=Shared (Strict)
+  - Sp3(19)	genes=464	telomeres=True	provenance=Shared (Strict)
+  - Sp3(21)	genes=839	telomeres=True	provenance=Shared (Strict)
+  - Sp3(20)	genes=460	telomeres=True	provenance=Shared (Strict)
+  - Sp3(9)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp3(2)	genes=192	telomeres=True	provenance=Shared (Strict)
+  - Sp4(7)	genes=583	telomeres=True	provenance=Shared (Strict)
+  - Sp3(16)	genes=409	telomeres=True	provenance=Nested (Strict)
+  - Sp3(17)	genes=1248	telomeres=True	provenance=Shared (Strict)
+  - Sp5(21)	genes=743	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc7] count=17
+  - Sp3(1)	genes=935	telomeres=True	provenance=Shared (Strict)
+  - Sp3(3)	genes=300	telomeres=True	provenance=Shared (Strict)
+  - Sp3(6)	genes=253	telomeres=True	provenance=Shared (Strict)
+  - Sp3(8)	genes=126	telomeres=True	provenance=Shared (Strict)
+  - Sp3(11)	genes=961	telomeres=True	provenance=Shared (Strict)
+  - Sp3(12)	genes=181	telomeres=True	provenance=Shared (Strict)
+  - Sp3(14)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp3(15)	genes=288	telomeres=True	provenance=Shared (Strict)
+  - Sp3(16)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp3(19)	genes=464	telomeres=True	provenance=Shared (Strict)
+  - Sp3(21)	genes=839	telomeres=True	provenance=Shared (Strict)
+  - Sp3(17)	genes=1248	telomeres=True	provenance=Shared (Strict)
+  - Sp4(5)	genes=1124	telomeres=True	provenance=Nested (Strict)
+  - Sp3(20)	genes=460	telomeres=True	provenance=Shared (Strict)
+  - Sp3(9)	genes=409	telomeres=True	provenance=Shared (Strict)
+  - Sp3(18)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp3(2)	genes=192	telomeres=True	provenance=Shared (Strict)
+
+[Freeze-Confirmed] reason=post-initial-index nodes=9 total=105
+[Root-Gene-Repertoire-Check] length_mismatch root=4065 modern=6204
+[Fusion-Outgroup-Validated] Sp9(8) from Anc2 splits exactly into 2 confirmed ancestors in Anc1_preWGD. Breakpoint ('K127', 'K128') supported by outgroup. Promoted to Root.
+[Fusion-Outgroup-Validated] Sp1(4) from Anc2 splits exactly into 2 confirmed ancestors in Anc1_preWGD. Breakpoint ('D337', 'D338') supported by outgroup. Promoted to Root.
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+--- Unmatched Outgroup Validation: promoted 2 chromosomes ---
+[Root-Gene-Repertoire-Check] length_mismatch root=5112 modern=6204
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+--- Post-Cleanup Merge @Node Anc5 ---
+[Shared-Strict] Sp1(3):1-1029,1490-1552 == Sp2(3):1-1029,1490-1552 -> Sp1(3):1-1029,1490-1552
+[Post-Cleanup-Confirmed] Anc5: Sp2(2):115-314 (size 200) telomeres=False
+[Post-Cleanup-Confirmed] Anc5: Sp2(6) (size 390) telomeres=True
+--- Post-Cleanup Merge @Node Anc6 ---
+[Shared-Strict] Sp8(3):1-1092 == Sp9(2):1-1092 -> Sp8(3):1-1092
+[Post-Cleanup-Confirmed] Anc6: Sp8(3):1-1092 (size 1092) telomeres=False
+[Post-Cleanup-Confirmed] Anc6: Sp9(5):145-562 (size 418) telomeres=False
+[Post-Cleanup-Confirmed] Anc6: Sp9(6) (size 170) telomeres=True
+--- Post-Cleanup Merge @Node Anc2 ---
+[Shared-Strict] Sp1(3):1-1029,1490-1552 == Sp8(3):1-1092 -> Sp8(3):1-1092
+[Post-Cleanup-Confirmed] Anc2: Sp8(3):1-1092 (size 1092) telomeres=False
+--- Post-Cleanup Merge @Node Anc3 ---
+[Shared-Strict] Sp6(4):301-883 == Sp7(7) -> Sp7(7)
+[Shared-Strict] Sp6(5):1-253 == Sp7(5):1-253 -> Sp6(5):1-253
+[Shared-Strict] Sp6(6) == Sp7(6):1-253 -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp7(8) -> Sp6(7)
+[Shared-Strict] Sp6(18) == Sp7(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp7(20) -> Sp6(19)
+[Shared-Strict] Sp6(22) == Sp7(23) -> Sp6(22)
+[Shared-Strict] Sp6(23) == Sp7(24) -> Sp6(23)
+--- Post-Cleanup Merge @Node Anc7 ---
+[Shared-Strict] Sp3(1):193-935 == Sp4(1):193-935 -> Sp3(1):193-935
+[Shared-Strict] Sp3(5):1-253,494-1076 == Sp4(5):1-253,494-1076 -> Sp3(5):1-253,494-1076
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp3(8) == Sp4(8) -> Sp3(8)
+[Shared-Strict] Sp3(17):217-1055 == Sp4(18):217-1055 -> Sp3(17):217-1055
+[Shared-Strict] Sp3(18) == Sp4(19) -> Sp3(18)
+[Shared-Strict-LocalConflict] Sp3(19) == Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Shared-Strict] Sp3(21) == Sp4(22) -> Sp3(21)
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict-LocalConflict] Sp3(19) == Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Nested-Strict-LocalConflict] Sp3(19) in Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Nested-Strict-LocalConflict] Sp3(6) in Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp4(20) == Sp3(19) -> Sp3(19)
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Nested-Strict-LocalConflict] Sp3(6) in Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp4(6) == Sp3(6) -> Sp3(6)
+--- Post-Cleanup Merge @Node Anc4 ---
+[Shared-Strict] Sp3(1):193-935 == Sp5(21) -> Sp5(21)
+[Shared-Strict] Sp3(8) == Sp5(8):1-126 -> Sp3(8)
+[Shared-Strict] Sp3(17):217-1055 == Sp5(17):217-1055 -> Sp3(17):217-1055
+[Shared-Strict] Sp3(21) == Sp5(22) -> Sp3(21)
+[Shared-Strict] Sp3(19) == Sp5(18) -> Sp3(19)
+[Shared-Strict] Sp3(6) == Sp5(5):1-253 -> Sp3(6)
+[Shared-Strict] Sp4(7) == Sp5(7) -> Sp4(7)
+[Nested-Strict] Sp5(14):557-1139 in Sp3(5):1-253,494-1076 -> Sp5(14):557-1139 + Residue Sp3(5):1-253
+[Residue] Sp3(5):1-253,494-1076 -> Sp3(5):1-253 size=253 telomeres=True
+--- Post-Cleanup Merge @Node Anc1 ---
+[Shared-Strict] Sp7(7) == Sp4(7) -> Sp7(7)
+[Shared-Strict] Sp6(5):1-253 == Sp3(6) -> Sp3(6)
+[Shared-Strict] Sp6(6) == Sp5(6) -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp5(14):557-1139 -> Sp6(7)
+[Shared-Strict] Sp6(18) == Sp3(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp5(19) -> Sp6(19)
+[Shared-Strict] Sp6(22) == Sp3(17):217-1055 -> Sp6(22)
+[Shared-Strict] Sp6(23) == Sp3(21) -> Sp6(23)
+--- Post-Cleanup Merge @Node Root ---
+[Nested-Strict] Sp6(22) in Sp8(3):1-1092 -> Sp6(22) + Residue Sp8(3):1-253
+[Residue] Sp8(3):1-1092 -> Sp8(3):1-253 size=253 telomeres=True
+[Root-Gene-Repertoire-Check] length_mismatch root=5112 modern=6204
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+--- Post-Cleanup Merge @Node Anc5 ---
+[Shared-Strict] Sp1(3):1-1029,1490-1552 == Sp2(3):1-1029,1490-1552 -> Sp1(3):1-1029,1490-1552
+--- Post-Cleanup Merge @Node Anc6 ---
+[Shared-Strict] Sp8(3):1-1092 == Sp9(2):1-1092 -> Sp8(3):1-1092
+--- Post-Cleanup Merge @Node Anc2 ---
+[Shared-Strict] Sp1(3):1-1029,1490-1552 == Sp8(3):1-1092 -> Sp8(3):1-1092
+--- Post-Cleanup Merge @Node Anc3 ---
+[Shared-Strict] Sp6(4):301-883 == Sp7(7) -> Sp7(7)
+[Shared-Strict] Sp6(5):1-253 == Sp7(5):1-253 -> Sp6(5):1-253
+[Shared-Strict] Sp6(6) == Sp7(6):1-253 -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp7(8) -> Sp6(7)
+[Shared-Strict] Sp6(18) == Sp7(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp7(20) -> Sp6(19)
+[Shared-Strict] Sp6(22) == Sp7(23) -> Sp6(22)
+[Shared-Strict] Sp6(23) == Sp7(24) -> Sp6(23)
+--- Post-Cleanup Merge @Node Anc7 ---
+[Shared-Strict] Sp3(1):193-935 == Sp4(1):193-935 -> Sp3(1):193-935
+[Shared-Strict] Sp3(5):1-253,494-1076 == Sp4(5):1-253,494-1076 -> Sp3(5):1-253,494-1076
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp3(8) == Sp4(8) -> Sp3(8)
+[Shared-Strict] Sp3(17):217-1055 == Sp4(18):217-1055 -> Sp3(17):217-1055
+[Shared-Strict] Sp3(18) == Sp4(19) -> Sp3(18)
+[Shared-Strict-LocalConflict] Sp3(19) == Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Shared-Strict] Sp3(21) == Sp4(22) -> Sp3(21)
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict-LocalConflict] Sp3(19) == Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Nested-Strict-LocalConflict] Sp3(19) in Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Nested-Strict-LocalConflict] Sp3(6) in Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp4(20) == Sp3(19) -> Sp3(19)
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Nested-Strict-LocalConflict] Sp3(6) in Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp4(6) == Sp3(6) -> Sp3(6)
+--- Post-Cleanup Merge @Node Anc4 ---
+[Shared-Strict] Sp3(1):193-935 == Sp5(21) -> Sp5(21)
+[Shared-Strict] Sp3(8) == Sp5(8):1-126 -> Sp3(8)
+[Shared-Strict] Sp3(17):217-1055 == Sp5(17):217-1055 -> Sp3(17):217-1055
+[Shared-Strict] Sp3(21) == Sp5(22) -> Sp3(21)
+[Shared-Strict] Sp3(19) == Sp5(18) -> Sp3(19)
+[Shared-Strict] Sp3(6) == Sp5(5):1-253 -> Sp3(6)
+[Shared-Strict] Sp4(7) == Sp5(7) -> Sp4(7)
+[Nested-Strict] Sp5(14):557-1139 in Sp3(5):1-253,494-1076 -> Sp5(14):557-1139 + Residue Sp3(5):1-253
+[Residue] Sp3(5):1-253,494-1076 -> Sp3(5):1-253 size=253 telomeres=True
+--- Post-Cleanup Merge @Node Anc1 ---
+[Shared-Strict] Sp7(7) == Sp4(7) -> Sp7(7)
+[Shared-Strict] Sp6(5):1-253 == Sp3(6) -> Sp3(6)
+[Shared-Strict] Sp6(6) == Sp5(6) -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp5(14):557-1139 -> Sp6(7)
+[Shared-Strict] Sp6(18) == Sp3(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp5(19) -> Sp6(19)
+[Shared-Strict] Sp6(22) == Sp3(17):217-1055 -> Sp6(22)
+[Shared-Strict] Sp6(23) == Sp3(21) -> Sp6(23)
+--- Post-Cleanup Merge @Node Root ---
+[Nested-Strict] Sp6(22) in Sp8(3):1-1092 -> Sp6(22) + Residue Sp8(3):1-253
+[Residue] Sp8(3):1-1092 -> Sp8(3):1-253 size=253 telomeres=True
+[Post-Cleanup-Confirmed] Root: Sp6(22) (size 839) telomeres=True
+[Root-Gene-Repertoire-Check] length_mismatch root=5951 modern=6204
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp2(6) breakpoint ('E188', 'G14') rejected, but forms RCT with Sp2(2):115-504. True ancestors are in Anc1_preWGD: ['Sp6(8)', 'Sp6(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(11) breakpoint ('F281', 'H97') rejected, but forms RCT with Sp6(14). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp6(14) breakpoint ('F282', 'H98') rejected, but forms RCT with Sp6(11). True ancestors are in Anc2: ['Sp1(6)', 'Sp1(8)'].
+[Fusion-Outgroup-Rejected-RCT] Sp5(21) breakpoint ('E361', 'L382') rejected, but forms RCT with Sp3(8). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+[Fusion-Outgroup-Rejected-RCT] Sp3(8) breakpoint ('E362', 'L383') rejected, but forms RCT with Sp5(21). True ancestors are in Anc2: ['Sp1(5)', 'Sp9(9)'].
+--- Post-Cleanup Merge @Node Anc5 ---
+[Shared-Strict] Sp1(3):1-253 == Sp2(3):1-253 -> Sp1(3):1-253
+--- Post-Cleanup Merge @Node Anc6 ---
+[Shared-Strict] Sp8(3):1-253 == Sp9(2):1-253 -> Sp8(3):1-253
+--- Post-Cleanup Merge @Node Anc2 ---
+[Shared-Strict] Sp1(3):1-253 == Sp8(3):1-253 -> Sp1(3):1-253
+--- Post-Cleanup Merge @Node Anc3 ---
+[Shared-Strict] Sp6(4):301-883 == Sp7(7) -> Sp7(7)
+[Shared-Strict] Sp6(5):1-253 == Sp7(5):1-253 -> Sp6(5):1-253
+[Shared-Strict] Sp6(6) == Sp7(6):1-253 -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp7(8) -> Sp6(7)
+[Shared-Strict] Sp6(18) == Sp7(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp7(20) -> Sp6(19)
+--- Post-Cleanup Merge @Node Anc7 ---
+[Shared-Strict] Sp3(1):193-935 == Sp4(1):193-935 -> Sp3(1):193-935
+[Shared-Strict] Sp3(5):1-253,494-1076 == Sp4(5):1-253,494-1076 -> Sp3(5):1-253,494-1076
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp3(8) == Sp4(8) -> Sp3(8)
+[Shared-Strict] Sp3(18) == Sp4(19) -> Sp3(18)
+[Shared-Strict-LocalConflict] Sp3(19) == Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict-LocalConflict] Sp3(19) == Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Nested-Strict-LocalConflict] Sp3(19) in Sp4(20) rejected due to overlap=350 with inferred:Sp3(18)
+[Nested-Strict-LocalConflict] Sp3(6) in Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp4(20) == Sp3(19) -> Sp3(19)
+[Shared-Strict-LocalConflict] Sp3(6) == Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Nested-Strict-LocalConflict] Sp3(6) in Sp4(6) rejected due to overlap=253 with inferred:Sp3(5):1-253,494-1076
+[Shared-Strict] Sp4(6) == Sp3(6) -> Sp3(6)
+--- Post-Cleanup Merge @Node Anc4 ---
+[Shared-Strict] Sp3(1):193-935 == Sp5(21) -> Sp5(21)
+[Shared-Strict] Sp3(8) == Sp5(8):1-126 -> Sp3(8)
+[Shared-Strict] Sp3(19) == Sp5(18) -> Sp3(19)
+[Shared-Strict] Sp3(6) == Sp5(5):1-253 -> Sp3(6)
+[Shared-Strict] Sp4(7) == Sp5(7) -> Sp4(7)
+[Nested-Strict] Sp5(14):557-1139 in Sp3(5):1-253,494-1076 -> Sp5(14):557-1139 + Residue Sp3(5):1-253
+[Residue] Sp3(5):1-253,494-1076 -> Sp3(5):1-253 size=253 telomeres=True
+--- Post-Cleanup Merge @Node Anc1 ---
+[Shared-Strict] Sp7(7) == Sp4(7) -> Sp7(7)
+[Shared-Strict] Sp6(5):1-253 == Sp3(6) -> Sp3(6)
+[Shared-Strict] Sp6(6) == Sp5(6) -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp5(14):557-1139 -> Sp6(7)
+[Shared-Strict] Sp6(18) == Sp3(19) -> Sp6(18)
+[Shared-Strict] Sp6(19) == Sp5(19) -> Sp6(19)
+--- Post-Cleanup Merge @Node Root ---
+[Shared-Strict] Sp6(6) == Sp1(3):1-253 -> Sp6(6)
+[Post-Cleanup-Confirmed] Root: Sp6(6) (size 253) telomeres=True
+[Root-Gene-Repertoire-Check] complete: root=6204 modern=6204
+--- Cleanup/Merge Loop: Repertoire complete at iteration 3 ---
+[Final-Output-Source] Root final output uses confirmed_ancestors[root] as authoritative set: 13 chromosomes
+--- Confirmed Root Ancestors (Final) ---
+  Sp1(6)	genes=961	provenance=Shared (Strict)
+  Sp1(8)	genes=865	provenance=Shared (Strict)
+  Sp1(4)	genes=857	provenance=Fusion-Outgroup-Validated
+  Sp6(22)	genes=839	provenance=Cleaned-Merge
+  Sp9(9)	genes=460	provenance=Shared (Strict)
+  Sp6(8)	genes=409	provenance=Shared (Strict)
+  Sp2(9)	genes=409	provenance=Shared (Strict)
+  Sp6(3)	genes=300	provenance=Shared (Strict)
+  Sp1(9)	genes=288	provenance=Shared (Strict)
+  Sp6(6)	genes=253	provenance=Cleaned-Merge
+  Sp6(1)	genes=192	provenance=Shared (Strict)
+  Sp9(8)	genes=190	provenance=Fusion-Outgroup-Validated
+  Sp8(7)	genes=181	provenance=Shared (Strict)

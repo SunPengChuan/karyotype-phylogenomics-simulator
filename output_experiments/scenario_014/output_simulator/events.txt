@@ -1,0 +1,46 @@
+Node	Type	Chromosomes	Position	Details
+--------------------------------------------------------------------------------
+Anc2      	Inversion      	F              	439-736             	Inverted
+Anc2      	EEJ            	C, M           	End-End             	Fused; mode=HH
+Anc5      	Inversion      	A              	118-146             	Inverted
+Anc5      	NCF            	C, L           	C:1029              	Inserted donor=L into recipient=C; donor_orient=HT
+Anc5      	EEJ            	G, K           	End-End             	Fused; mode=HT
+Sp2       	Inversion      	F              	8-849               	Inverted
+Sp2       	RCT            	G, E           	G:168|E:187         	Swapped tails; pairing=AL-BR/BL-AR
+Sp2       	NCF            	B, E           	B:114               	Inserted donor=E into recipient=B; donor_orient=HT
+Sp1       	Inversion      	E              	66-325              	Inverted
+Anc6      	Inversion      	L              	54-204              	Inverted
+Anc6      	EEJ            	D, H           	End-End             	Fused; mode=TT
+Sp9       	Inversion      	B              	212-231             	Inverted
+Sp9       	RCT            	B, I           	B:136|I:282         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp9       	NCF            	G, B           	G:144               	Inserted donor=B into recipient=G; donor_orient=HT
+Sp9       	EEJ            	C, F           	End-End             	Fused; mode=TH
+Sp8       	EEJ            	C, L           	End-End             	Fused; mode=TT
+Anc1_preWGD	PreWGD         	A, B, C, D, E, F, G, H, I, J, K, L, M	Before WGD          	Split to Anc1
+Anc1_preWGD	Inversion      	K              	0-9                 	Inverted
+Anc1_preWGD	RCT            	K, D           	K:127|D:337         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Anc1      	WGD            	A, B, C, D, E, F, G, H, I, J, K, L, M	Doubled             	13->26
+Anc1      	Inversion      	K_1            	106-250             	Inverted
+Anc1      	EEJ            	C_1, I_2       	End-End             	Fused; mode=TT
+Anc3      	Inversion      	H_2            	10-719              	Inverted
+Sp7       	Inversion      	H_2            	216-657             	Inverted
+Sp7       	RCT            	B_2, G_2       	B_2:102|G_2:74      	Swapped tails; pairing=AL-BR/BL-AR
+Sp7       	EEJ            	C_2, E_2       	End-End             	Fused; mode=TT
+Sp6       	Inversion      	M_2            	209-802             	Inverted
+Sp6       	RCT            	F_2, H_1       	F_2:281|H_1:97      	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp6       	NCF            	L_1, J_2       	L_1:445             	Inserted donor=J_2 into recipient=L_1; donor_orient=HT
+Sp6       	EEJ            	B_2, D_2       	End-End             	Fused; mode=TH
+Anc4      	Inversion      	M_2            	548-743             	Inverted
+Anc4      	RCT            	L_2, E_1       	L_2:382|E_1:361     	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Anc4      	NCF            	J_2, M_1       	J_2:216             	Inserted donor=M_1 into recipient=J_2; donor_orient=TH
+Sp5       	Inversion      	B_1            	19-182              	Inverted
+Sp5       	RCT            	A_1, G_2       	A_1:130|G_2:59      	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp5       	NCF            	H_1, D_2       	H_1:556             	Inserted donor=D_2 into recipient=H_1; donor_orient=TH
+Sp5       	EEJ            	E_1, J_1       	End-End             	Fused; mode=HT
+Anc7      	RCT            	K_1, B_2       	K_1:350|B_2:22      	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Anc7      	NCF            	C_1, D_2       	C_1:493             	Inserted donor=D_2 into recipient=C_1; donor_orient=HT
+Anc7      	EEJ            	A_1, L_2       	End-End             	Fused; mode=TH
+Sp4       	Inversion      	C_1            	811-998             	Inverted
+Sp4       	RCT            	H_1, B_2       	H_1:75|B_2:33       	Swapped tails; pairing=AL-BR/BL-AR
+Sp3       	RCT            	F_1, D_1       	F_1:788|D_1:406     	Swapped tails; pairing=AL-BR/BL-AR
+Sp3       	EEJ            	C_1, H_1       	End-End             	Fused; mode=TT

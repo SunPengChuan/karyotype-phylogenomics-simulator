@@ -1,0 +1,98 @@
+Node	ChrID	GenesCount	Provenance	InheritedFromRoot	RootChrID
+Root	Sp4(3)	812	Shared (Strict)	yes	Sp4(3)
+Root	Sp4(4)	880	Shared (Strict)	yes	Sp4(4)
+Root	Sp4(6)	478	Shared (Strict)	yes	Sp4(6)
+Root	Sp4(5)	573	Shared (Strict)	yes	Sp4(5)
+Root	Sp2(9)	713	Shared (Strict)	yes	Sp2(9)
+Root	Sp5(5)	247	Shared (Strict)	yes	Sp5(5)
+Root	Sp1(17)	564	Shared (Strict)	yes	Sp1(17)
+Root	Sp7(13)	119	Shared (Strict)	yes	Sp7(13)
+Root	Sp5(7)	787	Nested (Strict)	yes	Sp5(7)
+Root	Sp4(11)	723	Nested (Strict)	yes	Sp4(11)
+Root	Sp3(9)	911	Nested (Strict)	yes	Sp3(9)
+Root	Sp3(8)	815	Nested (Strict)	yes	Sp3(8)
+Root	Sp4(10)	610	Fusion-Outgroup-Validated	yes	Sp4(10)
+Root	Sp6(9)	198	Fusion-Outgroup-Validated	yes	Sp6(9)
+Root	Sp1(1)	139	Cleaned-Merge	yes	Sp1(1)
+Root	Sp6(2):1-392	392	Cleaned-Merge	yes	Sp6(2):1-392
+Anc1	Sp4(1)	954	Shared (Strict)	no	
+Anc1	Sp4(3)	812	Shared (Strict)	yes	Sp4(3)
+Anc1	Sp4(4)	880	Shared (Strict)	yes	Sp4(4)
+Anc1	Sp4(6)	478	Shared (Strict)	yes	Sp4(6)
+Anc1	Sp4(5)	573	Shared (Strict)	yes	Sp4(5)
+Anc1	Sp2(9)	713	Shared (Strict)	yes	Sp2(9)
+Anc1	Sp4(10)	610	Shared (Strict)	yes	Sp4(10)
+Anc1	Sp6(2)	1303	Shared (Strict)	no	
+Anc1	Sp4(11)	723	Nested (Strict)	yes	Sp4(11)
+Anc1	Sp5(9)	98	Cleaned-Merge	no	
+Anc1	Sp4(12)	585	Cleaned-Merge	no	
+Anc1	Sp7(5)	248	Cleaned-Merge	no	
+Anc1	Sp7(9)	197	Cleaned-Merge	no	
+Anc3	Sp4(1)	954	Shared (Strict)	no	
+Anc3	Sp4(3)	812	Shared (Strict)	yes	Sp4(3)
+Anc3	Sp4(4)	880	Shared (Strict)	yes	Sp4(4)
+Anc3	Sp4(6)	478	Shared (Strict)	yes	Sp4(6)
+Anc3	Sp4(11)	723	Shared (Strict)	yes	Sp4(11)
+Anc3	Sp4(5)	573	Shared (Strict)	yes	Sp4(5)
+Anc3	Sp2(9)	713	Shared (Strict)	yes	Sp2(9)
+Anc3	Sp5(5)	247	Shared (Strict)	yes	Sp5(5)
+Anc3	Sp5(9)	98	Shared (Strict)	no	
+Anc3	Sp4(12)	585	Nested (Strict)	no	
+Anc3	Sp5(2):1-312	312	Cleaned-Merge	no	
+Anc3	Sp4(8):912-1189	278	Cleaned-Merge	no	
+Anc3	Sp6(12)	828	Cleaned-Merge	no	
+Anc3	Sp6(8):1-569	569	Cleaned-Merge	no	
+Anc5	Sp4(1)	954	Shared (Strict)	no	
+Anc5	Sp4(3)	812	Shared (Strict)	yes	Sp4(3)
+Anc5	Sp4(4)	880	Shared (Strict)	yes	Sp4(4)
+Anc5	Sp4(6)	478	Shared (Strict)	yes	Sp4(6)
+Anc5	Sp4(8)	1189	Shared (Strict)	no	
+Anc5	Sp4(10)	610	Shared (Strict)	yes	Sp4(10)
+Anc5	Sp4(11)	723	Shared (Strict)	yes	Sp4(11)
+Anc5	Sp4(12)	585	Shared (Strict)	no	
+Anc5	Sp4(5)	573	Nested (Strict)	yes	Sp4(5)
+Anc5	Sp2(9)	713	Nested (Strict)	yes	Sp2(9)
+Anc5	Sp5(5)	247	Nested (Strict)	yes	Sp5(5)
+Anc5	Sp5(2):1-312	312	Cleaned-Merge	no	
+Anc5	Sp4(7)	118	Cleaned-Merge	no	
+Anc5	Sp4(9):1-767	767	Cleaned-Merge	no	
+Anc2	Sp1(1)	139	Shared (Strict)	yes	Sp1(1)
+Anc2	Sp2(5)	1510	Shared (Strict)	no	
+Anc2	Sp1(21)	581	Shared (Strict)	no	
+Anc2	Sp1(17)	564	Shared (Strict)	yes	Sp1(17)
+Anc2	Sp4(5)	573	Shared (Strict)	yes	Sp4(5)
+Anc2	Sp2(9)	713	Shared (Strict)	yes	Sp2(9)
+Anc2	Sp4(4)	880	Shared (Strict)	yes	Sp4(4)
+Anc2	Sp4(3)	812	Shared (Strict)	yes	Sp4(3)
+Anc2	Sp4(6)	478	Shared (Strict)	yes	Sp4(6)
+Anc2	Sp3(10)	619	Shared (Strict)	no	
+Anc2	Sp3(4)	217	Cleaned-Merge	no	
+Anc2	Sp1(23)	149	Cleaned-Merge	no	
+Anc2	Sp8(8)	1066	Cleaned-Merge	no	
+Anc2	Sp8(9)	660	Cleaned-Merge	no	
+Anc4	Sp1(1)	139	Shared (Strict)	yes	Sp1(1)
+Anc4	Sp2(5)	1510	Shared (Strict)	no	
+Anc4	Sp1(21)	581	Shared (Strict)	no	
+Anc4	Sp1(23)	149	Shared (Strict)	no	
+Anc4	Sp3(4)	217	Shared (Strict)	no	
+Anc4	Sp3(8)	815	Shared (Strict)	yes	Sp3(8)
+Anc4	Sp1(17)	564	Shared (Strict)	yes	Sp1(17)
+Anc4	Sp4(5)	573	Shared (Strict)	yes	Sp4(5)
+Anc4	Sp2(9)	713	Shared (Strict)	yes	Sp2(9)
+Anc4	Sp4(4)	880	Nested (Strict)	yes	Sp4(4)
+Anc4	Sp4(3)	812	Nested (Strict)	yes	Sp4(3)
+Anc4	Sp4(6)	478	Nested (Strict)	yes	Sp4(6)
+Anc4	Sp2(8)	567	Cleaned-Merge	no	
+Anc4	Sp2(7)	963	Cleaned-Merge	no	
+Anc6	Sp1(1)	139	Shared (Strict)	yes	Sp1(1)
+Anc6	Sp2(5)	1510	Shared (Strict)	no	
+Anc6	Sp2(7)	963	Shared (Strict)	no	
+Anc6	Sp1(21)	581	Shared (Strict)	no	
+Anc6	Sp1(23)	149	Shared (Strict)	no	
+Anc6	Sp1(3)	1290	Nested (Strict)	no	
+Anc6	Sp2(8)	567	Nested (Strict)	no	
+Anc6	Sp1(9)	572	Cleaned-Merge	no	
+Anc6	Sp1(19)	714	Cleaned-Merge	no	
+Anc6	Sp2(2):1291-1884	594	Cleaned-Merge	no	
+Anc6	Sp3(4)	217	Cleaned-Merge	no	
+Anc6	Sp2(6)	785	Cleaned-Merge	no	

@@ -1,0 +1,66 @@
+Node	Type	Chromosomes	Position	Details
+--------------------------------------------------------------------------------
+Anc1      	Inversion      	F              	66-156              	Inverted
+Anc1      	EEJ            	G, I           	End-End             	Fused; mode=HH
+Anc4      	RCT            	K, D           	K:77|D:202          	Swapped tails; pairing=AL-BR/BL-AR
+Anc4      	NCF            	A, K           	A:66                	Inserted donor=K into recipient=A; donor_orient=HT
+Anc7      	Inversion      	P              	200-888             	Inverted
+Anc7      	EEJ            	G, H           	End-End             	Fused; mode=TT
+Sp2       	Inversion      	L              	98-662              	Inverted
+Sp2       	RCT            	L, O           	L:95|O:85           	Swapped tails; pairing=AL-BR/BL-AR
+Sp2       	EEJ            	L, P           	End-End             	Fused; mode=TT
+Sp1       	Inversion      	O              	172-345             	Inverted
+Sp12_preWGD	PreWGD         	A, B, C, D, E, F, G, H, J, L, M, N, O, P	Before WGD          	Split to Sp12
+Sp12_preWGD	Inversion      	L              	392-904             	Inverted
+Sp12_preWGD	RCT            	E, J           	E:70|J:59           	Swapped tails; pairing=AL-BR/BL-AR
+Sp12_preWGD	EEJ            	F, G           	End-End             	Fused; mode=HT
+Sp12      	WGD            	A, B, C, D, E, F, H, J, L, M, N, O, P	Doubled             	13->26
+Sp12      	NCF            	A_1, L_2       	A_1:70              	Inserted donor=L_2 into recipient=A_1; donor_orient=TH
+Sp12      	EEJ            	F_2, M_2       	End-End             	Fused; mode=TH
+Anc3_preWGD	PreWGD         	A, B, C, D, E, F, G, H, J, K, L, M, N, O, P	Before WGD          	Split to Anc3
+Anc3_preWGD	Inversion      	N              	58-144              	Inverted
+Anc3      	WGD            	A, B, C, D, E, F, G, H, J, K, L, M, N, O, P	Doubled             	15->30
+Anc3      	Inversion      	D_2            	7-168               	Inverted
+Anc3      	EEJ            	C_1, K_1       	End-End             	Fused; mode=TT
+Sp4       	Inversion      	J_2            	276-331             	Inverted
+Sp4       	EEJ            	N_1, P_1       	End-End             	Fused; mode=HH
+Sp3_preWGD	PreWGD         	A_1, A_2, B_1, B_2, C_1, C_2, D_1, D_2, E_1, E_2, F_1, F_2, G_1, G_2, H_1, H_2, J_1, J_2, K_2, L_1, L_2, M_1, M_2, N_1, N_2, O_1, O_2, P_1, P_2	Before WGD          	Split to Sp3
+Sp3_preWGD	Inversion      	H_2            	209-539             	Inverted
+Sp3_preWGD	EEJ            	B_1, D_2       	End-End             	Fused; mode=HH
+Sp3       	WGD            	A_1, A_2, B_1, B_2, C_1, C_2, D_1, E_1, E_2, F_1, F_2, G_1, G_2, H_1, H_2, J_1, J_2, K_2, L_1, L_2, M_1, M_2, N_1, N_2, O_1, O_2, P_1, P_2	Doubled             	28->56
+Sp3       	Inversion      	K_2_1          	26-116              	Inverted
+Sp3       	NCF            	H_1_1, H_2_1   	H_1_1:432           	Inserted donor=H_2_1 into recipient=H_1_1; donor_orient=TH
+Anc2      	Inversion      	N              	102-143             	Inverted
+Anc2      	NCF            	C, L           	C:593               	Inserted donor=L into recipient=C; donor_orient=HT
+Anc2      	EEJ            	E, N           	End-End             	Fused; mode=TT
+Anc5      	Inversion      	J              	25-424              	Inverted
+Anc5      	EEJ            	D, G           	End-End             	Fused; mode=TH
+Sp11      	Inversion      	K              	60-134              	Inverted
+Sp11      	NCF            	A, F           	A:303               	Inserted donor=F into recipient=A; donor_orient=HT
+Sp11      	EEJ            	B, P           	End-End             	Fused; mode=HH
+Anc8      	Inversion      	I              	115-263             	Inverted
+Anc8      	EEJ            	M, P           	End-End             	Fused; mode=HT
+Sp10      	Inversion      	D              	7-537               	Inverted
+Sp10      	NCF            	A, H           	A:210               	Inserted donor=H into recipient=A; donor_orient=TH
+Sp10      	EEJ            	E, K           	End-End             	Fused; mode=HH
+Anc9      	Inversion      	J              	35-47               	Inverted
+Anc9      	EEJ            	D, I           	End-End             	Fused; mode=HH
+Sp9       	Inversion      	B              	10-61               	Inverted
+Anc10     	Inversion      	M              	406-967             	Inverted
+Anc10     	RCT            	A, D           	A:85|D:540          	Swapped tails; pairing=AL-BR/BL-AR
+Anc10     	NCF            	M, E           	M:1108              	Inserted donor=E into recipient=M; donor_orient=HT
+Anc10     	EEJ            	C, M           	End-End             	Fused; mode=TH
+Sp7       	NCF            	J, F           	J:2                 	Inserted donor=F into recipient=J; donor_orient=HT
+Sp7       	EEJ            	A, C           	End-End             	Fused; mode=TH
+Sp8_preWGD	PreWGD         	A, B, C, D, F, H, J, K, O	Before WGD          	Split to Sp8
+Sp8_preWGD	Inversion      	O              	678-717             	Inverted
+Sp8_preWGD	EEJ            	B, K           	End-End             	Fused; mode=HH
+Sp8       	WGD            	A, B, C, D, F, H, J, O	Doubled             	8->16
+Sp8       	Inversion      	H_2            	42-80               	Inverted
+Sp8       	EEJ            	C_2, H_1       	End-End             	Fused; mode=HT
+Anc6      	EEJ            	B, C           	End-End             	Fused; mode=HH
+Sp6       	Inversion      	I              	98-176              	Inverted
+Sp6       	NCF            	B, M           	B:594               	Inserted donor=M into recipient=B; donor_orient=HT
+Sp6       	EEJ            	B, H           	End-End             	Fused; mode=HH
+Sp5       	Inversion      	P              	587-832             	Inverted
+Sp5       	EEJ            	F, K           	End-End             	Fused; mode=TH
