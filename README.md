@@ -78,7 +78,7 @@ python experiment_table.py --no-visualize --num-scenarios 30
 - **Unique homology mapping**: Gene IDs are globally unique and represent one-to-one orthology across species.
 - **Restricted event types**: Core events are RCT, EEJ, NCF and inversions.
 - **Telomere flag**: `telomeres=True/False` distinguishes complete chromosomes from fragments, affecting strict matching and Root validation.
-- **Root child event constraint**: If a chromosome pair (X, Y) undergoes RCT at one root child branch, the same pair cannot undergo NCF or EEJ at the other root child branch. This prevents ambiguous scenarios where RCT + NCF/EEJ combinations on the same chromosome pair would complicate ancestral state inference.
+
 
 ## Reconstruction Algorithm
 
