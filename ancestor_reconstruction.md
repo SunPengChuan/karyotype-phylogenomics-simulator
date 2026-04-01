@@ -240,7 +240,6 @@ CONFIG = dict(
     enable_root_dotplot=True,       # Generate root dotplot
     min_block_size=2,               # Minimum gene block size for Nested matching
     enable_residual_rct_discovery=False,
-    root_final_pending_min_count=2, # Minimum leaf support for Logic 4
     outgroup_name="Outgroup",       # Name of outgroup in karyotype file
 )
 ```
@@ -291,7 +290,7 @@ Batch results written to `output_experiments/results.tsv`.
 # Scenario 006 (expect 9)
 cp ancestor_reconstruction.py output_experiments/scenario_006/
 cd output_experiments/scenario_006 && python ancestor_reconstruction.py
-# Look for: "Validated Ancestors: 9"
+
 
 # Scenario 010 (expect 23)
 cp ancestor_reconstruction.py output_experiments/scenario_010/
@@ -302,7 +301,7 @@ cp ancestor_reconstruction.py output_experiments/scenario_016/
 cd output_experiments/scenario_016 && python ancestor_reconstruction.py
 
 # Full batch regression (expect 30/30)
-python experiment_table.py --skip-existing --num-scenarios 30
+python experiment_table.py --no-visualize --skip-existing --num-scenarios 30
 
 ```
 
