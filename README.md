@@ -1,6 +1,6 @@
 # Chromosome Evolution Simulation and Ancestral Karyotype Reconstruction
 
-Tools for simulating chromosome evolution and reconstructing ancestral karyotypes.
+A suite of programs leveraging chromosome rearrangements for simulating chromosome evolution and reconstructing ancestral karyotypes.
 
 ## Workflow Overview
 
@@ -135,11 +135,10 @@ Root validated chromosomes require both: allowed `provenance` AND `telomeres=Tru
 
 ## Key Concepts
 
-- **RCT (Reciprocal Chromosome Translocation)**: Two chromosomes exchange segments
-- **EEJ (End-to-End Joining)**: Two chromosomes fuse end-to-end
-- **NCF (Nested Chromosome Fragment)**: Fragment inserted into chromosome
-- **Fusion Point**: Adjacent gene pair indicating chromosome fusion event
-- **Lineage Isolation**: Fusion points should appear in single lineages only
+- **RCT (Reciprocal Chromosome Translocation)**: Two chromosomes exchange segments.
+- **EEJ (End-to-End Joining)**: Two chromosomes fuse end-to-end.
+- **NCF (Nested Chromosome Fusion)**: One chromosome inserting into another chromosome.
+- **Fusion Points**: Adjacent gene pairs indicating chromosome fusion event.
 
 ## Configuration
 
