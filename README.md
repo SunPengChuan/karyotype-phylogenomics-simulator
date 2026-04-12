@@ -39,6 +39,13 @@ python experiment_table.py --no-visualize --num-scenarios 30
 | `ancestor_reconstruction.py` | Reconstruct ancestral karyotypes ([detailed guide](ancestor_reconstruction.md)) |
 | `experiment_table.py` | Run batch experiments for accuracy evaluation |
 
+## Experiments
+
+| Directory | Purpose |
+|-----------|---------|
+| [`assembly_errors/`](assembly_errors/README.md) | Simulate chromosome misassembly errors and detect them via reconstruction |
+| [`fission/`](fission/README.md) | Simulate chromosome fission events and detect them via reconstruction |
+
 ## Output Files
 
 ### Simulation (`output_simulator/`)
@@ -187,13 +194,19 @@ karyotype-phylogenomics-simulator/
 ├── ancestor_reconstruction.py
 ├── ancestor_reconstruction.md
 ├── experiment_table.py
-├── workflow.pdf
+├── workflow.png
 ├── README.md
 ├── output_simulator/           # Simulation outputs
 ├── output_reconstruction/      # Reconstruction outputs
-└── output_experiments/         # Batch experiment results
+├── output_experiments/         # Batch experiment results
+├── assembly_errors/            # Misassembly simulation & detection experiment
+└── fission/                    # Fission simulation & detection experiment
 ```
 
 ## License
 
 Research use only.
+
+## Acknowledgements
+
+Developed with assistance from [Claude](https://claude.ai) (Anthropic).

@@ -1,0 +1,108 @@
+======================================================================
+GENOME ERROR DETECTOR
+======================================================================
+Misassemblies detected : 10
+Fission events detected: 0
+
+======================================================================
+MISASSEMBLIES (DUP / SANDWICH)
+======================================================================
+Species: Sp1  Chr: 9  Method: SANDWICH
+  Insert position: 104  Insert size: 246 genes
+  Insert families: {'F': 200, 'J': 46}
+  Main root chr: Sp2(9)  Insert root chr: {'Sp8(17)', 'Sp3(11)'} (22.6%)
+  Breakpoints:
+    I104 | F173
+    J46 | I105
+
+Species: Sp10  Chr: 14  Method: SANDWICH
+  Insert position: 603  Insert size: 29 genes
+  Insert families: {'C': 29}
+  Main root chr: Sp2(9)  Insert root chr: {'Sp8(5)'} (2.8%)
+  Breakpoints:
+    I603 | C152
+    C124 | I604
+
+Species: Sp10  Chr: 15  Method: SANDWICH
+  Insert position: 99  Insert size: 12 genes
+  Insert families: {'C': 12}
+  Main root chr: Sp2(9)  Insert root chr: {'Sp8(5)'} (1.2%)
+  Breakpoints:
+    I99 | C169
+    C158 | I100
+
+Species: Sp12  Chr: 19  Method: SANDWICH
+  Insert position: 67  Insert size: 46 genes
+  Insert families: {'A': 46}
+  Main root chr: Sp8(17)  Insert root chr: {'Sp3(2)'} (24.9%)
+  Breakpoints:
+    J67 | A45
+    A90 | J68
+
+Species: Sp5  Chr: 16  Method: SANDWICH
+  Insert position: 348  Insert size: 41 genes
+  Insert families: {'B': 41}
+  Main root chr: Sp3(6)  Insert root chr: {'Sp3(3)'} (4.4%)
+  Breakpoints:
+    D348 | B217
+    B257 | D349
+
+Species: Sp6  Chr: 13  Method: DUP
+  Insert position: 1718  Insert size: 167 genes
+  Insert families: {'I': 113, 'G': 54}
+  Duplicate contiguity: 1.0
+  Breakpoints:
+    H513 | I816
+    G193 | H514
+
+Species: Sp7  Chr: 9  Method: SANDWICH
+  Insert position: 6  Insert size: 72 genes
+  Insert families: {'J': 72}
+  Main root chr: Sp3(9)  Insert root chr: {'Sp8(17)'} (12.2%)
+  Breakpoints:
+    E6 | J29
+    J100 | E7
+
+Species: Sp8  Chr: 15  Method: DUP
+  Insert position: 616  Insert size: 120 genes
+  Insert families: {'H': 141}
+  Duplicate contiguity: 0.85
+  Breakpoints:
+    H616 | H518
+    H637 | H638
+
+Species: Sp9  Chr: 16  Method: SANDWICH
+  Insert position: 101  Insert size: 7 genes
+  Insert families: {'B': 7}
+  Main root chr: Sp3(11)  Insert root chr: {'Sp3(3)'} (2.1%)
+  Breakpoints:
+    F272 | B288
+    B294 | F271
+
+======================================================================
+MISASSEMBLIES (SIB_DOM)
+======================================================================
+Species: Sp1  Chr: 10  Method: SIB_DOM
+  Ancestor node: Anc1  Ancestor chr: Sp1(10)
+  Anomalous root chr: Sp8(17)  Count in candidate: 132  Max in sibling branch: 60  Ratio: 2.2x  Excess: 72
+  Root composition: {'Sp3(6)': 186, 'Sp3(13)': 97, 'Sp3(9)': 46, 'Sp8(17)': 132}
+
+======================================================================
+SUMMARY TABLE
+======================================================================
+--- Misassemblies ---
+Species  Chr      Method     Pos      Size     Breakpoints
+--------------------------------------------------------------------------------
+Sp1      9        SANDWICH   104      246      I104|F173; J46|I105
+Sp10     14       SANDWICH   603      29       I603|C152; C124|I604
+Sp10     15       SANDWICH   99       12       I99|C169; C158|I100
+Sp12     19       SANDWICH   67       46       J67|A45; A90|J68
+Sp5      16       SANDWICH   348      41       D348|B217; B257|D349
+Sp6      13       DUP        1718     167      H513|I816; G193|H514
+Sp7      9        SANDWICH   6        72       E6|J29; J100|E7
+Sp8      15       DUP        616      120      H616|H518; H637|H638
+Sp9      16       SANDWICH   101      7        F272|B288; B294|F271
+--- Misassemblies (SIB_DOM) ---
+Species  Chr      AncNode    RootChr          Ratio    Excess
+--------------------------------------------------------------------------------
+Sp1      10       Anc1       Sp8(17)          2.2      72

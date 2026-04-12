@@ -1,0 +1,38 @@
+======================================================================
+GENOME ERROR DETECTOR
+======================================================================
+Misassemblies detected : 0
+Fission events detected: 2
+
+======================================================================
+FISSION EVENTS
+======================================================================
+Species: Sp11
+  Root chr   : Sp3(11)  (372 genes)
+  Full copies: 1
+  Pure fragments:
+    12a  (160 genes)
+    12b  (212 genes)
+  Breakpoints (root gene order):
+    F63 | F64
+    F223 | F224
+  Fragment coverage: 100.0%
+
+Species: Sp9
+  Root chr   : Sp3(20)  (139 genes)
+  Full copies: 1
+  Pure fragments:
+    18a  (114 genes)
+    18b  (25 genes)
+  Breakpoints (root gene order):
+    J114 | J115
+  Fragment coverage: 100.0%
+
+======================================================================
+SUMMARY TABLE
+======================================================================
+--- Fission events ---
+Species  RootChr        Breakpoints                    Fragments
+--------------------------------------------------------------------------------
+Sp11     Sp3(11)        F63|F64; F223|F224             12a(160), 12b(212)
+Sp9      Sp3(20)        J114|J115                      18a(114), 18b(25)
