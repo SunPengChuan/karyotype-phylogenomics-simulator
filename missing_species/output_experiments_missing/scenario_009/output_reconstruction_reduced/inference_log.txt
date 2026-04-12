@@ -1,0 +1,515 @@
+--- Node Anc7 Inference ---
+--- Merge @Node Anc7: left=Sp12 right=Sp13 ---
+[Shared-Strict] Sp12(1) == Sp13(1) -> Sp12(1)
+[Shared-Strict] Sp12(2) == Sp13(2) -> Sp12(2)
+[Shared-Strict] Sp12(3) == Sp13(3) -> Sp12(3)
+[Shared-Strict] Sp12(4) == Sp13(4) -> Sp12(4)
+[Shared-Strict] Sp12(5) == Sp13(5) -> Sp12(5)
+[Shared-Strict] Sp12(6) == Sp13(6) -> Sp12(6)
+[Shared-Strict] Sp12(7) == Sp13(7) -> Sp12(7)
+[Shared-Strict] Sp12(9) == Sp13(9) -> Sp12(9)
+[Shared-Strict] Sp12(10) == Sp13(10) -> Sp12(10)
+[Nested-Strict] Sp13(11) in Sp12(8) -> Sp13(11) + Residue Sp12(8):1-584
+[Residue] Sp12(8) -> Sp12(8):1-584 size=584 telomeres=True
+
+--- Node Anc3 Inference ---
+--- Merge @Node Anc3: left=Anc7 right=Sp14 ---
+[Shared-Strict] Sp12(1) == Sp14(1) -> Sp12(1)
+[Shared-Strict] Sp12(2) == Sp14(2) -> Sp12(2)
+[Shared-Strict] Sp12(3) == Sp14(3) -> Sp12(3)
+[Shared-Strict] Sp12(4) == Sp14(4) -> Sp12(4)
+[Shared-Strict] Sp12(5) == Sp14(5) -> Sp12(5)
+[Shared-Strict] Sp12(7) == Sp14(7) -> Sp12(7)
+[Shared-Strict] Sp13(11) == Sp14(12) -> Sp13(11)
+[Shared-Strict] Sp13(8) == Sp14(8) -> Sp13(8)
+[Nested-Strict] Sp14(9) in Sp12(6) -> Sp14(9) + Residue Sp12(6):1-529
+[Residue] Sp12(6) -> Sp12(6):1-529 size=529 telomeres=True
+
+--- Node Anc18 Inference ---
+--- Merge @Node Anc18: left=Sp8 right=Sp9 ---
+[Shared-Strict] Sp8(1) == Sp9(1) -> Sp8(1)
+[Shared-Strict] Sp8(2) == Sp9(2) -> Sp8(2)
+[Shared-Strict] Sp8(3) == Sp9(3) -> Sp8(3)
+[Shared-Strict] Sp8(4) == Sp9(4) -> Sp8(4)
+[Shared-Strict] Sp8(5) == Sp9(5) -> Sp8(5)
+[Shared-Strict] Sp8(6) == Sp9(6) -> Sp8(6)
+[Shared-Strict] Sp8(7) == Sp9(7) -> Sp8(7)
+[Shared-Strict] Sp8(10) == Sp9(9) -> Sp9(9)
+[Shared-Strict] Sp8(11) == Sp9(10) -> Sp8(11)
+[Shared-Strict] Sp8(12) == Sp9(11) -> Sp8(12)
+[Shared-Strict] Sp8(13) == Sp9(12) -> Sp8(13)
+[Nested-Strict] Sp8(8) in Sp9(8) -> Sp8(8) + Residue Sp9(8):1-443,1028-1469
+[Residue] Sp9(8) -> Sp9(8):1-443,1028-1469 size=885 telomeres=True
+
+--- Node Anc14 Inference ---
+--- Merge @Node Anc14: left=Anc18 right=Sp10 ---
+[Shared-Strict] Sp8(3) == Sp10(3) -> Sp8(3)
+[Shared-Strict] Sp8(4) == Sp10(4) -> Sp8(4)
+[Shared-Strict] Sp8(5) == Sp10(5) -> Sp8(5)
+[Shared-Strict] Sp8(6) == Sp10(6) -> Sp8(6)
+[Shared-Strict] Sp8(7) == Sp10(7) -> Sp8(7)
+[Shared-Strict] Sp8(11) == Sp10(10) -> Sp8(11)
+[Shared-Strict] Sp8(12) == Sp10(11) -> Sp8(12)
+[Shared-Strict] Sp8(8) == Sp10(8) -> Sp8(8)
+[Shared-Strict] Sp8(9) == Sp10(9) -> Sp8(9)
+[Nested-Strict] Sp8(2) in Sp10(2) -> Sp8(2) + Residue Sp10(2):977-1232
+[Residue] Sp10(2) -> Sp10(2):977-1232 size=256 telomeres=True
+[Nested-Strict] Sp8(13) in Sp10(1) -> Sp8(13) + Residue Sp10(1):1-164,589-1033
+[Residue] Sp10(1) -> Sp10(1):1-164,589-1033 size=609 telomeres=True
+
+--- Node Anc8 Inference ---
+--- Merge @Node Anc8: left=Anc14 right=Sp11 ---
+[Shared-Strict] Sp8(3) == Sp11(3) -> Sp8(3)
+[Shared-Strict] Sp8(4) == Sp11(4) -> Sp8(4)
+[Shared-Strict] Sp8(5) == Sp11(5) -> Sp8(5)
+[Shared-Strict] Sp8(6) == Sp11(6) -> Sp8(6)
+[Shared-Strict] Sp8(7) == Sp11(7) -> Sp8(7)
+[Shared-Strict] Sp8(11) == Sp11(11) -> Sp8(11)
+[Shared-Strict] Sp8(12) == Sp11(12) -> Sp8(12)
+[Shared-Strict] Sp8(8) == Sp11(8) -> Sp8(8)
+[Shared-Strict] Sp8(9) == Sp11(9) -> Sp8(9)
+[Shared-Strict] Sp8(2) == Sp11(2) -> Sp8(2)
+[Shared-Strict] Sp8(13) == Sp11(13) -> Sp8(13)
+[Shared-Strict] Sp8(1) == Sp11(1) -> Sp8(1)
+[Shared-Strict] Sp9(9) == Sp11(10) -> Sp9(9)
+
+--- Node Anc15 Inference ---
+--- Merge @Node Anc15: left=Sp6 right=Sp7 ---
+[Shared-Strict] Sp6(1) == Sp7(1) -> Sp6(1)
+[Shared-Strict] Sp6(3) == Sp7(3) -> Sp6(3)
+[Shared-Strict] Sp6(4) == Sp7(4) -> Sp6(4)
+[Shared-Strict] Sp6(6) == Sp7(6) -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp7(7) -> Sp6(7)
+[Shared-Strict] Sp6(8) == Sp7(8) -> Sp6(8)
+[Shared-Strict] Sp6(9) == Sp7(9) -> Sp6(9)
+[Shared-Strict] Sp6(12) == Sp7(12) -> Sp6(12)
+
+--- Node Anc16 Inference ---
+--- Merge @Node Anc16: left=Sp4 right=Sp5 ---
+[Shared-Strict] Sp4(1) == Sp5(1) -> Sp4(1)
+[Shared-Strict] Sp4(2) == Sp5(2) -> Sp4(2)
+[Shared-Strict] Sp4(3) == Sp5(3) -> Sp4(3)
+[Shared-Strict] Sp4(4) == Sp5(4) -> Sp4(4)
+[Shared-Strict] Sp4(7) == Sp5(6) -> Sp4(7)
+[Shared-Strict] Sp4(8) == Sp5(7) -> Sp4(8)
+[Shared-Strict] Sp4(9) == Sp5(8) -> Sp4(9)
+[Shared-Strict] Sp4(10) == Sp5(9) -> Sp5(9)
+[Shared-Strict] Sp4(11) == Sp5(10) -> Sp4(11)
+[Shared-Strict] Sp4(12) == Sp5(11) -> Sp4(12)
+[Shared-Strict] Sp4(13) == Sp5(12) -> Sp4(13)
+[Nested-Strict] Sp4(5) in Sp5(5) -> Sp4(5) + Residue Sp5(5):753-1281
+[Residue] Sp5(5) -> Sp5(5):753-1281 size=529 telomeres=True
+
+--- Node Anc9 Inference ---
+--- Merge @Node Anc9: left=Anc15 right=Anc16 ---
+[Shared-Strict] Sp6(3) == Sp4(3) -> Sp6(3)
+[Shared-Strict] Sp6(4) == Sp4(4) -> Sp6(4)
+[Shared-Strict] Sp6(6) == Sp4(6) -> Sp6(6)
+[Shared-Strict] Sp6(7) == Sp4(7) -> Sp6(7)
+[Shared-Strict] Sp6(8) == Sp4(8) -> Sp6(8)
+[Shared-Strict] Sp6(9) == Sp4(9) -> Sp6(9)
+[Shared-Strict] Sp6(12) == Sp4(13) -> Sp6(12)
+[Shared-Strict] Sp6(10) == Sp4(11) -> Sp6(10)
+[Shared-Strict] Sp6(11) == Sp4(12) -> Sp6(11)
+[Shared-Strict] Sp7(2) == Sp4(2) -> Sp7(2)
+[Shared-Strict] Sp7(5) == Sp4(5) -> Sp7(5)
+[Nested-Strict] Sp4(1) in Sp6(1) -> Sp4(1) + Residue Sp6(1):610-865
+[Residue] Sp6(1) -> Sp6(1):610-865 size=256 telomeres=True
+
+--- Node Anc4 Inference ---
+--- Merge @Node Anc4: left=Anc8 right=Anc9 ---
+[Shared-Strict] Sp8(3) == Sp6(3) -> Sp8(3)
+[Shared-Strict] Sp8(4) == Sp6(4) -> Sp8(4)
+[Shared-Strict] Sp8(5) == Sp7(5) -> Sp8(5)
+[Shared-Strict] Sp8(6) == Sp6(6) -> Sp8(6)
+[Shared-Strict] Sp8(7) == Sp6(7) -> Sp8(7)
+[Shared-Strict] Sp8(11) == Sp6(10) -> Sp8(11)
+[Shared-Strict] Sp8(12) == Sp6(11) -> Sp8(12)
+[Shared-Strict] Sp8(8) == Sp6(8) -> Sp8(8)
+[Shared-Strict] Sp8(9) == Sp6(9) -> Sp8(9)
+[Shared-Strict] Sp8(2) == Sp7(2) -> Sp8(2)
+[Shared-Strict] Sp8(13) == Sp6(12) -> Sp8(13)
+[Shared-Strict] Sp8(1) == Sp4(1) -> Sp8(1)
+[Shared-Strict] Sp9(9) == Sp5(9) -> Sp9(9)
+
+--- Node Anc1 Inference ---
+--- Merge @Node Anc1: left=Anc3 right=Anc4 ---
+[Shared-Strict] Sp12(1) == Sp8(1) -> Sp8(1)
+[Shared-Strict] Sp12(2) == Sp8(2) -> Sp8(2)
+[Shared-Strict] Sp12(3) == Sp8(3) -> Sp8(3)
+[Shared-Strict] Sp13(11) == Sp8(12) -> Sp8(12)
+[Shared-Strict] Sp13(8) == Sp8(8) -> Sp8(8)
+[Shared-Strict] Sp14(9) == Sp8(9) -> Sp8(9)
+[Shared-Strict] Sp14(6) == Sp8(6) -> Sp8(6)
+[Nested-Strict] Sp8(13) in Sp12(9) -> Sp8(13) + Residue Sp12(9):1-256
+[Residue] Sp12(9) -> Sp12(9):1-256 size=256 telomeres=True
+
+--- Node Anc17 Inference ---
+Inherited directly from Sp1
+
+--- Node Anc10 Inference ---
+--- Merge @Node Anc10: left=Anc17 right=Sp3 ---
+[Shared-Strict] Sp1(1) == Sp3(1) -> Sp1(1)
+[Shared-Strict] Sp1(3) == Sp3(3) -> Sp1(3)
+[Shared-Strict] Sp1(4) == Sp3(4) -> Sp1(4)
+[Shared-Strict] Sp1(5) == Sp3(5) -> Sp1(5)
+[Shared-Strict] Sp1(6) == Sp3(6) -> Sp1(6)
+[Shared-Strict] Sp1(8) == Sp3(7) -> Sp1(8)
+[Shared-Strict] Sp1(9) == Sp3(8) -> Sp1(9)
+[Shared-Strict] Sp1(10) == Sp3(9) -> Sp3(9)
+[Shared-Strict] Sp1(11) == Sp3(10) -> Sp1(11)
+[Shared-Strict] Sp1(12) == Sp3(11) -> Sp1(12)
+[Nested-Strict] Sp1(2) in Sp3(2) -> Sp1(2) + Residue Sp3(2):861-1444
+[Residue] Sp3(2) -> Sp3(2):861-1444 size=584 telomeres=True
+
+--- Node Anc11 Inference ---
+--- Merge @Node Anc11: left=Sp19 right=Sp20 ---
+[Shared-Strict] Sp19(1) == Sp20(1) -> Sp19(1)
+[Shared-Strict] Sp19(2) == Sp20(2) -> Sp19(2)
+[Shared-Strict] Sp19(4) == Sp20(4) -> Sp19(4)
+[Shared-Strict] Sp19(5) == Sp20(5) -> Sp19(5)
+[Shared-Strict] Sp19(7) == Sp20(7) -> Sp19(7)
+[Shared-Strict] Sp19(8) == Sp20(8) -> Sp19(8)
+[Shared-Strict] Sp19(9) == Sp20(10) -> Sp19(9)
+[Shared-Strict] Sp19(10) == Sp20(11) -> Sp19(10)
+[Shared-Strict] Sp19(11) == Sp20(13) -> Sp19(11)
+[Nested-Strict] Sp20(9) in Sp19(6) -> Sp20(9) + Residue Sp19(6):1-348
+[Residue] Sp19(6) -> Sp19(6):1-348 size=348 telomeres=True
+[Nested-Strict] Sp20(12) in Sp19(3) -> Sp20(12) + Residue Sp19(3):1-126,715-960
+[Residue] Sp19(3) -> Sp19(3):1-126,715-960 size=372 telomeres=True
+
+--- Node Anc5 Inference ---
+--- Merge @Node Anc5: left=Anc10 right=Anc11 ---
+[Shared-Strict] Sp1(1) == Sp19(1) -> Sp1(1)
+[Shared-Strict] Sp1(3) == Sp20(3) -> Sp1(3)
+[Shared-Strict] Sp1(4) == Sp19(4) -> Sp1(4)
+[Shared-Strict] Sp1(5) == Sp19(5) -> Sp1(5)
+[Shared-Strict] Sp1(8) == Sp20(9) -> Sp1(8)
+[Shared-Strict] Sp1(9) == Sp19(9) -> Sp1(9)
+[Shared-Strict] Sp1(11) == Sp20(12) -> Sp1(11)
+[Shared-Strict] Sp1(12) == Sp19(11) -> Sp1(12)
+[Shared-Strict] Sp1(7) == Sp19(8) -> Sp1(7)
+[Nested-Strict] Sp19(7) in Sp3(9) -> Sp19(7) + Residue Sp3(9):1-109,919-996
+[Residue] Sp3(9) -> Sp3(9):1-109,919-996 size=187 telomeres=True
+
+--- Node Anc12 Inference ---
+--- Merge @Node Anc12: left=Sp17 right=Sp18 ---
+[Shared-Strict] Sp17(1) == Sp18(1) -> Sp17(1)
+[Shared-Strict] Sp17(2) == Sp18(2) -> Sp17(2)
+[Shared-Strict] Sp17(3) == Sp18(3) -> Sp17(3)
+[Shared-Strict] Sp17(4) == Sp18(4) -> Sp17(4)
+[Shared-Strict] Sp17(5) == Sp18(5) -> Sp17(5)
+[Shared-Strict] Sp17(6) == Sp18(6) -> Sp17(6)
+[Shared-Strict] Sp17(7) == Sp18(7) -> Sp17(7)
+[Shared-Strict] Sp17(8) == Sp18(8) -> Sp17(8)
+[Shared-Strict] Sp17(9) == Sp18(9) -> Sp17(9)
+[Shared-Strict] Sp17(10) == Sp18(10) -> Sp17(10)
+[Shared-Strict] Sp17(11) == Sp18(11) -> Sp17(11)
+[Shared-Strict] Sp17(12) == Sp18(12) -> Sp17(12)
+[Shared-Strict] Sp17(13) == Sp18(13) -> Sp17(13)
+
+--- Node Anc13 Inference ---
+Inherited directly from Sp15
+
+--- Node Anc6 Inference ---
+--- Merge @Node Anc6: left=Anc12 right=Anc13 ---
+[Shared-Strict] Sp17(1) == Sp15(1) -> Sp17(1)
+[Shared-Strict] Sp17(3) == Sp15(3) -> Sp17(3)
+[Shared-Strict] Sp17(4) == Sp15(4) -> Sp17(4)
+[Shared-Strict] Sp17(5) == Sp15(5) -> Sp17(5)
+[Shared-Strict] Sp17(7) == Sp15(7) -> Sp17(7)
+[Shared-Strict] Sp17(8) == Sp15(8) -> Sp17(8)
+[Shared-Strict] Sp17(9) == Sp15(9) -> Sp17(9)
+[Shared-Strict] Sp17(10) == Sp15(10) -> Sp17(10)
+[Shared-Strict] Sp17(12) == Sp15(12) -> Sp17(12)
+[Shared-Strict] Sp17(13) == Sp15(13) -> Sp17(13)
+
+--- Node Anc2 Inference ---
+--- Merge @Node Anc2: left=Anc5 right=Anc6 ---
+[Shared-Strict] Sp1(1) == Sp17(1) -> Sp1(1)
+[Shared-Strict] Sp1(3) == Sp17(3) -> Sp1(3)
+[Shared-Strict] Sp1(4) == Sp17(4) -> Sp1(4)
+[Shared-Strict] Sp1(5) == Sp17(5) -> Sp1(5)
+[Shared-Strict] Sp1(8) == Sp17(9) -> Sp1(8)
+[Shared-Strict] Sp1(9) == Sp17(10) -> Sp1(9)
+[Shared-Strict] Sp1(12) == Sp17(13) -> Sp1(12)
+[Shared-Strict] Sp1(7) == Sp17(8) -> Sp1(7)
+[Shared-Strict] Sp19(7) == Sp17(7) -> Sp19(7)
+[Shared-Strict] Sp19(10) == Sp17(11) -> Sp19(10)
+[Shared-Strict] Sp20(6) == Sp17(6) -> Sp20(6)
+
+--- Node Root Inference ---
+--- Merge @Node Root: left=Anc1 right=Anc2 ---
+[Shared-Strict] Sp8(1) == Sp1(1) -> Sp8(1)
+[Shared-Strict] Sp8(2) == Sp17(2) -> Sp8(2)
+[Shared-Strict] Sp8(3) == Sp1(3) -> Sp8(3)
+[Shared-Strict] Sp8(12) == Sp17(12) -> Sp8(12)
+[Shared-Strict] Sp8(8) == Sp1(7) -> Sp8(8)
+[Shared-Strict] Sp8(9) == Sp1(8) -> Sp8(9)
+[Shared-Strict] Sp8(13) == Sp1(12) -> Sp8(13)
+[Shared-Strict] Sp12(4) == Sp1(4) -> Sp1(4)
+[Shared-Strict] Sp12(10) == Sp19(10) -> Sp12(10)
+[Shared-Strict] Sp8(5) == Sp1(5) -> Sp8(5)
+[Shared-Strict] Sp8(7) == Sp19(7) -> Sp8(7)
+
+--- Chromosome Cleanup Complete: removed 92 chromosomes ---
+--- Confirmed Ancestors By Node ---
+[Confirmed@Root] count=11
+  - Sp8(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp8(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp8(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp8(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp8(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp8(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp8(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp1(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp12(10)	genes=187	telomeres=True	provenance=Shared (Strict)
+  - Sp8(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp8(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc1] count=8
+  - Sp8(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp8(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp8(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp8(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp8(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp8(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp8(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp8(13)	genes=424	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc3] count=9
+  - Sp12(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp12(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp12(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp12(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp12(5)	genes=1417	telomeres=True	provenance=Shared (Strict)
+  - Sp12(7)	genes=144	telomeres=True	provenance=Shared (Strict)
+  - Sp13(11)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp13(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp14(9)	genes=885	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc7] count=10
+  - Sp12(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp12(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp12(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp12(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp12(5)	genes=1417	telomeres=True	provenance=Shared (Strict)
+  - Sp12(6)	genes=1414	telomeres=True	provenance=Shared (Strict)
+  - Sp12(7)	genes=144	telomeres=True	provenance=Shared (Strict)
+  - Sp12(9)	genes=680	telomeres=True	provenance=Shared (Strict)
+  - Sp12(10)	genes=187	telomeres=True	provenance=Shared (Strict)
+  - Sp13(11)	genes=651	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc4] count=13
+  - Sp8(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp8(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp8(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp8(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp8(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp8(11)	genes=386	telomeres=True	provenance=Shared (Strict)
+  - Sp8(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp8(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp8(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp8(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp8(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp8(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp9(9)	genes=256	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc8] count=13
+  - Sp8(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp8(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp8(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp8(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp8(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp8(11)	genes=386	telomeres=True	provenance=Shared (Strict)
+  - Sp8(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp8(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp8(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp8(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp8(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp8(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp9(9)	genes=256	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc14] count=11
+  - Sp8(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp8(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp8(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp8(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp8(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp8(11)	genes=386	telomeres=True	provenance=Shared (Strict)
+  - Sp8(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp8(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp8(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp8(2)	genes=976	telomeres=True	provenance=Nested (Strict)
+  - Sp8(13)	genes=424	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc18] count=12
+  - Sp8(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp8(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp8(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp8(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp8(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp8(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp8(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp9(9)	genes=256	telomeres=True	provenance=Shared (Strict)
+  - Sp8(11)	genes=386	telomeres=True	provenance=Shared (Strict)
+  - Sp8(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp8(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp8(8)	genes=584	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc9] count=12
+  - Sp6(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp6(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp6(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp6(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp6(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp6(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp6(12)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp6(10)	genes=386	telomeres=True	provenance=Shared (Strict)
+  - Sp6(11)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp7(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp7(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp4(1)	genes=609	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc15] count=8
+  - Sp6(1)	genes=865	telomeres=True	provenance=Shared (Strict)
+  - Sp6(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp6(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp6(6)	genes=529	telomeres=True	provenance=Shared (Strict)
+  - Sp6(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp6(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp6(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp6(12)	genes=424	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc16] count=12
+  - Sp4(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp4(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp4(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp4(4)	genes=273	telomeres=True	provenance=Shared (Strict)
+  - Sp4(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp4(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp4(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp5(9)	genes=256	telomeres=True	provenance=Shared (Strict)
+  - Sp4(11)	genes=386	telomeres=True	provenance=Shared (Strict)
+  - Sp4(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp4(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp4(5)	genes=752	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc2] count=11
+  - Sp1(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp1(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp1(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp1(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp1(8)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp1(9)	genes=437	telomeres=True	provenance=Shared (Strict)
+  - Sp1(12)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp1(7)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp19(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp19(10)	genes=187	telomeres=True	provenance=Shared (Strict)
+  - Sp20(6)	genes=348	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc5] count=10
+  - Sp1(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp1(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp1(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp1(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp1(8)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp1(9)	genes=437	telomeres=True	provenance=Shared (Strict)
+  - Sp1(11)	genes=588	telomeres=True	provenance=Shared (Strict)
+  - Sp1(12)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp1(7)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp19(7)	genes=809	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc10] count=11
+  - Sp1(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp1(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp1(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp1(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp1(6)	genes=527	telomeres=True	provenance=Shared (Strict)
+  - Sp1(8)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp1(9)	genes=437	telomeres=True	provenance=Shared (Strict)
+  - Sp3(9)	genes=996	telomeres=True	provenance=Shared (Strict)
+  - Sp1(11)	genes=588	telomeres=True	provenance=Shared (Strict)
+  - Sp1(12)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp1(2)	genes=860	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc17] count=0
+
+[Confirmed@Anc11] count=11
+  - Sp19(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp19(2)	genes=1039	telomeres=True	provenance=Shared (Strict)
+  - Sp19(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp19(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp19(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp19(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp19(9)	genes=437	telomeres=True	provenance=Shared (Strict)
+  - Sp19(10)	genes=187	telomeres=True	provenance=Shared (Strict)
+  - Sp19(11)	genes=424	telomeres=True	provenance=Shared (Strict)
+  - Sp20(9)	genes=885	telomeres=True	provenance=Nested (Strict)
+  - Sp20(12)	genes=588	telomeres=True	provenance=Nested (Strict)
+
+[Confirmed@Anc6] count=10
+  - Sp17(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp17(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp17(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp17(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp17(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp17(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp17(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp17(10)	genes=437	telomeres=True	provenance=Shared (Strict)
+  - Sp17(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp17(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc12] count=13
+  - Sp17(1)	genes=609	telomeres=True	provenance=Shared (Strict)
+  - Sp17(2)	genes=976	telomeres=True	provenance=Shared (Strict)
+  - Sp17(3)	genes=372	telomeres=True	provenance=Shared (Strict)
+  - Sp17(4)	genes=472	telomeres=True	provenance=Shared (Strict)
+  - Sp17(5)	genes=752	telomeres=True	provenance=Shared (Strict)
+  - Sp17(6)	genes=348	telomeres=True	provenance=Shared (Strict)
+  - Sp17(7)	genes=809	telomeres=True	provenance=Shared (Strict)
+  - Sp17(8)	genes=584	telomeres=True	provenance=Shared (Strict)
+  - Sp17(9)	genes=885	telomeres=True	provenance=Shared (Strict)
+  - Sp17(10)	genes=437	telomeres=True	provenance=Shared (Strict)
+  - Sp17(11)	genes=187	telomeres=True	provenance=Shared (Strict)
+  - Sp17(12)	genes=651	telomeres=True	provenance=Shared (Strict)
+  - Sp17(13)	genes=424	telomeres=True	provenance=Shared (Strict)
+
+[Confirmed@Anc13] count=0
+
+[Freeze-Confirmed] reason=post-initial-index nodes=17 total=185
+[Root-Gene-Repertoire-Check] length_mismatch root=6721 modern=7506
+[Fusion-Outgroup-Rejected-RCT] Sp8(6) breakpoint ('F313', 'J222') rejected, but forms RCT with Sp9(9). True ancestors are in Anc2: ['Sp1(9)', 'Sp20(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp12(5) breakpoint ('E718', 'G111') rejected, but forms RCT with Sp12(7). True ancestors are in Anc2: ['Sp1(5)', 'Sp19(7)'].
+[Fusion-Outgroup-Rejected-RCT] Sp12(7) breakpoint ('E719', 'G110') rejected, but forms RCT with Sp12(5). True ancestors are in Anc2: ['Sp1(5)', 'Sp19(7)'].
+[Fusion-Outgroup-Rejected-RCT] Sp8(4) breakpoint ('D136', 'K137') rejected, but forms RCT with Sp8(11). True ancestors are in Anc2: ['Sp1(4)', 'Sp19(10)'].
+[Fusion-Outgroup-Rejected-RCT] Sp8(11) breakpoint ('D137', 'K138') rejected, but forms RCT with Sp8(4). True ancestors are in Anc2: ['Sp1(4)', 'Sp19(10)'].
+[Fusion-Outgroup-Rejected-RCT] Sp9(9) breakpoint ('F314', 'J221') rejected, but forms RCT with Sp8(6). True ancestors are in Anc2: ['Sp1(9)', 'Sp20(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp8(6) breakpoint ('F313', 'J222') rejected, but forms RCT with Sp9(9). True ancestors are in Anc2: ['Sp1(9)', 'Sp20(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp12(5) breakpoint ('E718', 'G111') rejected, but forms RCT with Sp12(7). True ancestors are in Anc2: ['Sp1(5)', 'Sp19(7)'].
+[Fusion-Outgroup-Rejected-RCT] Sp12(7) breakpoint ('E719', 'G110') rejected, but forms RCT with Sp12(5). True ancestors are in Anc2: ['Sp1(5)', 'Sp19(7)'].
+[Fusion-Outgroup-Rejected-RCT] Sp8(4) breakpoint ('D136', 'K137') rejected, but forms RCT with Sp8(11). True ancestors are in Anc2: ['Sp1(4)', 'Sp19(10)'].
+[Fusion-Outgroup-Rejected-RCT] Sp8(11) breakpoint ('D137', 'K138') rejected, but forms RCT with Sp8(4). True ancestors are in Anc2: ['Sp1(4)', 'Sp19(10)'].
+[Fusion-Outgroup-Rejected-RCT] Sp9(9) breakpoint ('F314', 'J221') rejected, but forms RCT with Sp8(6). True ancestors are in Anc2: ['Sp1(9)', 'Sp20(6)'].
+[Fusion-Outgroup-Rejected-RCT] Sp1(11) breakpoint ('B841', 'L452') rejected, but forms RCT with Sp1(6). True ancestors are in Anc1: ['Sp8(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp19(2) breakpoint ('B840', 'L453') rejected, but forms RCT with Sp1(11). True ancestors are in Anc1: ['Sp8(2)', 'Sp8(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp1(11) breakpoint ('B841', 'L452') rejected, but forms RCT with Sp1(6). True ancestors are in Anc1: ['Sp8(12)'].
+[Fusion-Outgroup-Rejected-RCT] Sp19(2) breakpoint ('B840', 'L453') rejected, but forms RCT with Sp1(11). True ancestors are in Anc1: ['Sp8(2)', 'Sp8(12)'].
+--- Unmatched Outgroup Validation: promoted 2 chromosomes ---
+[Root-Gene-Repertoire-Check] complete: root=7506 modern=7506
+[Freeze-ShortCircuit] Root reconstructed gene repertoire already matches the deduplicated modern gene repertoire; skip downstream iterative loops
+[Final-Output-Source] Root final output uses confirmed_ancestors[root] as authoritative set: 13 chromosomes
+--- Confirmed Root Ancestors (Final) ---
+  Sp8(2)	genes=976	provenance=Shared (Strict)
+  Sp8(9)	genes=885	provenance=Shared (Strict)
+  Sp8(7)	genes=809	provenance=Shared (Strict)
+  Sp8(5)	genes=752	provenance=Shared (Strict)
+  Sp8(12)	genes=651	provenance=Shared (Strict)
+  Sp8(1)	genes=609	provenance=Shared (Strict)
+  Sp8(8)	genes=584	provenance=Shared (Strict)
+  Sp1(4)	genes=472	provenance=Shared (Strict)
+  Sp1(9)	genes=437	provenance=Fusion-Outgroup-Rejected-RCT
+  Sp8(13)	genes=424	provenance=Shared (Strict)
+  Sp8(3)	genes=372	provenance=Shared (Strict)
+  Sp20(6)	genes=348	provenance=Fusion-Outgroup-Rejected-RCT
+  Sp12(10)	genes=187	provenance=Shared (Strict)

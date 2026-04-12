@@ -1,0 +1,98 @@
+Node	ChrID	GenesCount	Provenance	InheritedFromRoot	RootChrID
+Root	Sp6(3)	880	Shared (Strict)	yes	Sp6(3)
+Root	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Root	Sp6(6)	478	Shared (Strict)	yes	Sp6(6)
+Root	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Root	Sp6(9)	198	Shared (Strict)	yes	Sp6(9)
+Root	Sp3(9)	713	Shared (Strict)	yes	Sp3(9)
+Root	Sp7(7)	787	Shared (Strict)	yes	Sp7(7)
+Root	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Root	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Root	Sp6(2)	812	Shared (Strict)	yes	Sp6(2)
+Root	Sp12(2)	392	Nested (Strict)	yes	Sp12(2)
+Root	Sp9(8)	815	Nested (Strict)	yes	Sp9(8)
+Root	Sp13(1)	139	Outgroup-Arbitrated-Nested	yes	Sp13(1)
+Anc1	Sp6(3)	880	Shared (Strict)	yes	Sp6(3)
+Anc1	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc1	Sp6(6)	478	Shared (Strict)	yes	Sp6(6)
+Anc1	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc1	Sp6(9)	198	Shared (Strict)	yes	Sp6(9)
+Anc1	Sp3(9)	713	Shared (Strict)	yes	Sp3(9)
+Anc1	Sp7(7)	787	Shared (Strict)	yes	Sp7(7)
+Anc1	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc1	Sp12(2)	392	Shared (Strict)	yes	Sp12(2)
+Anc1	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc3	Sp10(1)	954	Shared (Strict)	no	
+Anc3	Sp6(2)	812	Shared (Strict)	yes	Sp6(2)
+Anc3	Sp6(3)	880	Shared (Strict)	yes	Sp6(3)
+Anc3	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc3	Sp6(6)	478	Shared (Strict)	yes	Sp6(6)
+Anc3	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc3	Sp6(9)	198	Shared (Strict)	yes	Sp6(9)
+Anc3	Sp3(9)	713	Shared (Strict)	yes	Sp3(9)
+Anc3	Sp7(7)	787	Nested (Strict)	yes	Sp7(7)
+Anc2	Sp6(2)	812	Shared (Strict)	yes	Sp6(2)
+Anc2	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc2	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc2	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc2	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc2	Sp3(9)	713	Shared (Strict)	yes	Sp3(9)
+Anc2	Sp9(8)	815	Shared (Strict)	yes	Sp9(8)
+Anc2	Sp2(1)	531	Shared (Strict)	no	
+Anc2	Sp6(3)	880	Nested (Strict)	yes	Sp6(3)
+Anc4	Sp6(2)	812	Shared (Strict)	yes	Sp6(2)
+Anc4	Sp6(3)	880	Shared (Strict)	yes	Sp6(3)
+Anc4	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc4	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc4	Sp6(6)	478	Shared (Strict)	yes	Sp6(6)
+Anc4	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc4	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc4	Sp7(7)	787	Shared (Strict)	yes	Sp7(7)
+Anc4	Sp6(9)	198	Shared (Strict)	yes	Sp6(9)
+Anc4	Sp3(9)	713	Shared (Strict)	yes	Sp3(9)
+Anc4	Sp9(8)	815	Nested (Strict)	yes	Sp9(8)
+Anc7	Sp6(2)	812	Shared (Strict)	yes	Sp6(2)
+Anc7	Sp6(3)	880	Shared (Strict)	yes	Sp6(3)
+Anc7	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc7	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc7	Sp6(6)	478	Shared (Strict)	yes	Sp6(6)
+Anc7	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc7	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc7	Sp7(7)	787	Nested (Strict)	yes	Sp7(7)
+Anc9	Sp6(2)	812	Shared (Strict)	yes	Sp6(2)
+Anc9	Sp6(3)	880	Shared (Strict)	yes	Sp6(3)
+Anc9	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc9	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc9	Sp6(6)	478	Shared (Strict)	yes	Sp6(6)
+Anc9	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc9	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc9	Sp7(7)	787	Nested (Strict)	yes	Sp7(7)
+Anc5	Sp3(5)	1358	Shared (Strict)	no	
+Anc5	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc5	Sp1(5)	545	Shared (Strict)	no	
+Anc5	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc5	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc5	Sp3(7)	440	Shared (Strict)	no	
+Anc5	Sp3(9)	713	Shared (Strict)	yes	Sp3(9)
+Anc5	Sp6(5)	573	Nested (Strict)	yes	Sp6(5)
+Anc5	Sp9(8)	815	Nested (Strict)	yes	Sp9(8)
+Anc8	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc8	Sp2(1)	531	Shared (Strict)	no	
+Anc8	Sp1(2)	1627	Shared (Strict)	no	
+Anc8	Sp3(5)	1358	Shared (Strict)	no	
+Anc8	Sp6(4)	247	Shared (Strict)	yes	Sp6(4)
+Anc8	Sp1(5)	545	Shared (Strict)	no	
+Anc8	Sp6(8)	911	Shared (Strict)	yes	Sp6(8)
+Anc8	Sp3(8)	564	Shared (Strict)	yes	Sp3(8)
+Anc10	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc10	Sp2(1)	531	Shared (Strict)	no	
+Anc10	Sp1(2)	1627	Nested (Strict)	no	
+Anc10	Sp3(5)	1358	Nested (Strict)	no	
+Anc10	Sp6(4)	247	Nested (Strict)	yes	Sp6(4)
+Anc11	Sp1(2)	1627	Shared (Strict)	no	
+Anc11	Sp6(5)	573	Shared (Strict)	yes	Sp6(5)
+Anc11	Sp1(4)	1922	Shared (Strict)	no	
+Anc11	Sp1(5)	545	Shared (Strict)	no	
+Anc11	Sp1(6)	632	Shared (Strict)	no	
+Anc11	Sp1(7)	521	Shared (Strict)	no	
+Anc11	Sp2(6)	1158	Nested (Strict)	no	

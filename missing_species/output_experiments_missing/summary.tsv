@@ -1,0 +1,11 @@
+Scenario	Seed	SpeciesFull	SpeciesReduced	DroppedCount	DroppedSpecies	TrueChrCount	ReconChrCount	ExactMatch	ExactMatchRate	GeneCoverage
+scenario_001	42	23	22	1	Sp1	13	13	13	100.0%	100.0%
+scenario_002	43	13	11	2	Sp8,Sp11	13	13	13	100.0%	100.0%
+scenario_003	44	19	18	1	Sp14	13	13	13	100.0%	100.0%
+scenario_004	45	17	15	2	Sp8,Sp17	13	13	13	100.0%	100.0%
+scenario_005	46	14	12	2	Sp1,Sp5	13	13	13	100.0%	100.0%
+scenario_006	47	18	17	1	Sp5	13	13	13	100.0%	100.0%
+scenario_007	48	21	19	2	Sp13,Sp6	13	13	13	100.0%	100.0%
+scenario_008	49	14	12	2	Sp2,Sp10	13	13	13	100.0%	100.0%
+scenario_009	50	20	18	2	Sp2,Sp16	13	13	13	100.0%	100.0%
+scenario_010	51	16	15	1	Sp16	13	13	13	100.0%	100.0%

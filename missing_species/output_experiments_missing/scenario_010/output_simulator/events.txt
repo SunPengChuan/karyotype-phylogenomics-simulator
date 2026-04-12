@@ -1,0 +1,50 @@
+Node	Type	Chromosomes	Position	Details
+--------------------------------------------------------------------------------
+Anc2      	Inversion      	K              	184-198             	Inverted
+Anc5      	RCT            	E, A           	E:246|A:92          	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp4       	Inversion      	M              	98-332              	Inverted
+Sp4       	NCF            	L, B           	L:14                	Inserted donor=B into recipient=L; donor_orient=TH
+Anc6      	Inversion      	H              	8-222               	Inverted
+Sp2       	Inversion      	H              	91-281              	Inverted
+Sp1       	Inversion      	H              	5-333               	Inverted
+Anc1_preWGD	PreWGD         	A, B, C, D, E, F, G, H, I, J, K, L, M	Before WGD          	Split to Anc1
+Anc1      	WGD            	A, B, C, D, E, F, G, H, I, J, K, L, M	Doubled             	13->26
+Anc1      	Inversion      	E_2            	14-235              	Inverted
+Anc3      	EEJ            	G_1, J_2       	End-End             	Fused; mode=TH
+Anc7      	Inversion      	H_1            	103-282             	Inverted
+Anc7      	RCT            	L_2, E_2       	L_2:260|E_2:248     	Swapped tails; pairing=AL-BR/BL-AR
+Sp15      	RCT            	E_2, H_1       	E_2:900|H_1:7       	Swapped tails; pairing=AL-BR/BL-AR
+Anc8      	Inversion      	I_1            	290-771             	Inverted
+Sp14      	Inversion      	G_1            	34-1310             	Inverted
+Sp13      	Inversion      	F_1            	205-292             	Inverted
+Anc10     	Inversion      	I_1            	606-760             	Inverted
+Anc10     	RCT            	K_1, B_2       	K_1:4|B_2:136       	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Anc10     	EEJ            	F_2, H_1       	End-End             	Fused; mode=TH
+Sp12      	Inversion      	J_1            	50-336              	Inverted
+Sp12      	NCF            	E_1, K_1       	E_1:149             	Inserted donor=K_1 into recipient=E_1; donor_orient=HT
+Sp12      	EEJ            	D_1, G_2       	End-End             	Fused; mode=HT
+Anc11     	RCT            	M_2, I_1       	M_2:476|I_1:517     	Swapped tails; pairing=AL-BR/BL-AR
+Sp11      	Inversion      	B_2            	21-1162             	Inverted
+Anc12     	Inversion      	K_1            	34-122              	Inverted
+Anc12     	RCT            	I_2, J_1       	I_2:421|J_1:429     	Swapped tails; pairing=AL-BR/BL-AR
+Anc12     	EEJ            	H_2, K_1       	End-End             	Fused; mode=TT
+Sp10      	Inversion      	A_2            	60-151              	Inverted
+Anc13     	Inversion      	L_1            	525-866             	Inverted
+Anc13     	RCT            	H_2, F_2       	H_2:116|F_2:499     	Swapped tails; pairing=AL-BR/BL-AR
+Anc13     	NCF            	K_2, A_1       	K_2:279             	Inserted donor=A_1 into recipient=K_2; donor_orient=TH
+Anc13     	EEJ            	D_1, F_1       	End-End             	Fused; mode=HH
+Sp9       	Inversion      	L_1            	93-870              	Inverted
+Anc14     	Inversion      	A_2            	153-169             	Inverted
+Anc14     	RCT            	D_1, K_2       	D_1:889|K_2:312     	Swapped tails; pairing=AL-BR/BL-AR
+Anc14     	NCF            	B_2, G_2       	B_2:972             	Inserted donor=G_2 into recipient=B_2; donor_orient=HT
+Anc14     	EEJ            	I_2, M_2       	End-End             	Fused; mode=TT
+Sp8       	Inversion      	L_1            	421-847             	Inverted
+Sp8       	RCT            	M_1, B_1       	M_1:229|B_1:171     	Swapped tails; pairing=AL-BR/BL-AR
+Sp8       	NCF            	L_2, E_2       	L_2:31              	Inserted donor=E_2 into recipient=L_2; donor_orient=TH
+Sp7       	Inversion      	D_2            	331-654             	Inverted
+Sp7       	NCF            	L_1, H_2       	L_1:500             	Inserted donor=H_2 into recipient=L_1; donor_orient=TH
+Anc4      	NCF            	F_1, F_2       	F_1:91              	Inserted donor=F_2 into recipient=F_1; donor_orient=HT
+Sp6       	RCT            	K_2, M_1       	K_2:222|M_1:155     	Swapped tails; pairing=AL-BR/BL-AR
+Sp6       	NCF            	K_2, F_1       	K_2:461             	Inserted donor=F_1 into recipient=K_2; donor_orient=TH
+Sp5       	Inversion      	K_2            	295-331             	Inverted
+Sp5       	NCF            	C_2, H_1       	C_2:436             	Inserted donor=H_1 into recipient=C_2; donor_orient=TH

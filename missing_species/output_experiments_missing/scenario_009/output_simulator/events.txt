@@ -1,0 +1,56 @@
+Node	Type	Chromosomes	Position	Details
+--------------------------------------------------------------------------------
+Anc1      	Inversion      	F              	113-163             	Inverted
+Anc1      	RCT            	F, J           	F:313|J:221         	Swapped tails; pairing=AL-BR/BL-AR
+Anc3      	Inversion      	F              	5-440               	Inverted
+Anc3      	RCT            	E, G           	E:718|G:110         	Swapped tails; pairing=AL-BR/BL-AR
+Anc3      	EEJ            	J, M           	End-End             	Fused; mode=TH
+Sp14      	Inversion      	D              	273-296             	Inverted
+Sp14      	RCT            	K, J           	K:180|J:122         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Anc7      	Inversion      	K              	32-127              	Inverted
+Anc7      	EEJ            	F, I           	End-End             	Fused; mode=HH
+Sp13      	Inversion      	K              	105-174             	Inverted
+Sp12      	Inversion      	D              	83-371              	Inverted
+Sp12      	EEJ            	H, L           	End-End             	Fused; mode=HT
+Anc4      	Inversion      	I              	48-874              	Inverted
+Anc4      	RCT            	D, K           	D:136|K:137         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp11      	Inversion      	A              	69-454              	Inverted
+Sp10      	Inversion      	C              	100-220             	Inverted
+Sp10      	NCF            	A, M           	A:164               	Inserted donor=M into recipient=A; donor_orient=TH
+Sp10      	EEJ            	B, J           	End-End             	Fused; mode=HT
+Anc18     	Inversion      	F              	16-183              	Inverted
+Sp9       	NCF            	I, H           	I:443               	Inserted donor=H into recipient=I; donor_orient=HT
+Sp8       	Inversion      	A              	289-535             	Inverted
+Anc9      	Inversion      	I              	835-854             	Inverted
+Anc15     	Inversion      	G              	261-728             	Inverted
+Anc15     	EEJ            	A, J           	End-End             	Fused; mode=HH
+Sp7       	Inversion      	H              	256-476             	Inverted
+Sp7       	RCT            	L, K           	L:256|K:137         	Swapped tails; pairing=AL-BR/BL-AR
+Sp6       	Inversion      	D              	25-255              	Inverted
+Sp6       	RCT            	B, E           	B:743|E:391         	Swapped tails; pairing=AL-BR/BL-AR
+Anc16     	Inversion      	C              	223-341             	Inverted
+Sp5       	EEJ            	E, F           	End-End             	Fused; mode=HH
+Sp4       	Inversion      	M              	147-252             	Inverted
+Anc2      	Inversion      	I              	118-221             	Inverted
+Anc5      	RCT            	B, L           	B:840|L:452         	Swapped tails; pairing=AL-BR/BL-AR
+Anc10     	Inversion      	F              	198-316             	Inverted
+Anc10     	RCT            	B, F           	B:833|F:321         	Swapped tails; pairing=AL-BR/BL-AR
+Anc10     	NCF            	K, G           	K:109               	Inserted donor=G into recipient=K; donor_orient=TH
+Sp3       	Inversion      	I              	641-708             	Inverted
+Sp3       	EEJ            	B, H           	End-End             	Fused; mode=HH
+Anc17     	Inversion      	I              	296-827             	Inverted
+Sp2       	Inversion      	K              	386-540             	Inverted
+Sp2       	RCT            	C, A           	C:273|A:224         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR
+Sp1       	Inversion      	E              	314-353             	Inverted
+Anc11     	Inversion      	L              	343-545             	Inverted
+Sp20      	Inversion      	G              	145-215             	Inverted
+Sp19      	NCF            	C, L           	C:126               	Inserted donor=L into recipient=C; donor_orient=HT
+Sp19      	EEJ            	F, I           	End-End             	Fused; mode=HH
+Anc12     	Inversion      	K              	87-153              	Inverted
+Sp18      	Inversion      	C              	219-288             	Inverted
+Anc13     	Inversion      	J              	218-332             	Inverted
+Anc13     	RCT            	F, K           	F:127|K:27          	Swapped tails; pairing=AL-BR/BL-AR
+Sp16      	Inversion      	H              	60-358              	Inverted
+Sp16      	EEJ            	H, I           	End-End             	Fused; mode=TH
+Sp15      	Inversion      	E              	626-633             	Inverted
+Sp15      	RCT            	F, B           	F:190|B:791         	Swapped with alternate end pairing; pairing=AL-BL/AR-BR

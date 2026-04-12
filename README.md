@@ -45,6 +45,7 @@ python experiment_table.py --no-visualize --num-scenarios 30
 |-----------|---------|
 | [`assembly_errors/`](assembly_errors/README.md) | Simulate chromosome misassembly errors and detect them via reconstruction |
 | [`fission/`](fission/README.md) | Simulate chromosome fission events and detect them via reconstruction |
+| [`missing_species/`](missing_species/README.md) | Test reconstruction robustness when 1–2 extant species are missing |
 
 ## Output Files
 
@@ -196,11 +197,12 @@ karyotype-phylogenomics-simulator/
 ├── experiment_table.py
 ├── workflow.png
 ├── README.md
-├── output_simulator/           # Simulation outputs
-├── output_reconstruction/      # Reconstruction outputs
-├── output_experiments/         # Batch experiment results
-├── assembly_errors/            # Misassembly simulation & detection experiment
-└── fission/                    # Fission simulation & detection experiment
+├── output_simulator/           # Simulation
+├── output_reconstruction/      # Reconstruction
+├── output_experiments/         # 
+├── assembly_errors/            # 
+├── fission/                    # 
+└── missing_species/            # 
 ```
 
 ## License
