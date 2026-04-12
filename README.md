@@ -209,6 +209,13 @@ karyotype-phylogenomics-simulator/
 
 Research use only.
 
+> **Note**: In principle, the phylogenetic tree could be inferred jointly with
+> the ancestral karyotypes — reconstructing both simultaneously rather than
+> requiring the tree as prior input. However, this would substantially increase
+> algorithmic complexity. In practice, the phylogenetic relationships among the
+> species of interest are largely known — only a few branching points remain
+> uncertain — so we treat the tree as given.
+
 ## Acknowledgements
 
 Developed with assistance from [Claude](https://claude.ai) (Anthropic).
