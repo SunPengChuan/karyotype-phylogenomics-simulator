@@ -32,7 +32,6 @@ All paths are configured in `CONFIG` dict (lines 14-26):
 |------|------|-------------|
 | Tree | `output_simulator/tree.nwk` | Phylogenetic tree (Newick format) |
 | Karyotypes | `output_simulator/karyotypes_species_with_outgroup.txt` | Extant species + outgroup karyotypes |
-| True Root | `output_simulator/karyotypes_true_root.txt` | Ground truth for validation |
 
 ### Karyotype File Format
 
@@ -233,11 +232,9 @@ Genes named `<prefix><number>` (e.g., `E292`, `C77`):
 CONFIG = dict(
     input_tree="output_simulator/tree.nwk",
     input_karyotypes="output_simulator/karyotypes_species_with_outgroup.txt",
-    input_true_root_karyotype="output_simulator/karyotypes_true_root.txt",
     output_dir="output_reconstruction",
     tree_viz_output_dir="output_simulator",
     enable_tree_viz=True,           # Generate tree PNG with ancestor counts
-    enable_root_dotplot=True,       # Generate root dotplot
     min_block_size=2,               # Minimum gene block size for Nested matching
     enable_residual_rct_discovery=False,
     outgroup_name="Outgroup",       # Name of outgroup in karyotype file

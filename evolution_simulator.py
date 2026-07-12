@@ -1135,7 +1135,7 @@ def visualize_pairwise_species(cfg, engine):
         spB_karyo = engine.node_karyotypes[spB_name]
 
         # 1. Prepare SpA (Top/X-axis) Layout
-        spA_gene_map = collections.defaultdict(list)
+        spA_gene_map = defaultdict(list)
         spA_chr_order = sorted(spA_karyo.keys(), key=lambda x: (0, int(x)) if str(x).isdigit() else (1, str(x)))
         
         current_x = 0
